@@ -1,0 +1,41 @@
+.SearchPanel {
+    margin: 106px 228px;
+    gap: 8px;
+    display: sticky;
+}
+
+.Search {
+    width: 1344px;
+    height: 52px;
+    background-color: #046075;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 26px 4px 4px;
+    border-radius: 20px;
+
+}
+
+.Panel {
+    width: 590px;
+    height: 44px;
+    background-color: #00141F66;
+    border-radius: 16px;
+    align-items: center;
+    border: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px 10px 16px;
+}
+
+h3 {
+    width: 534px;
+    height: 20px;
+    color: #CCF8FFA6;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -1%;
+}
+
+img {
+    width: 24px;
+}
