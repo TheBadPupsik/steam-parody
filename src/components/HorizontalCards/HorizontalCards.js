@@ -19,7 +19,7 @@ export function HorizontalCards({ image, name, price, discount, originalPrice })
           {discount && (
             <span className="game-card-discount">-{discount}%</span>
           )}
-          <h3>{price}₴</h3>
+          <h4>{price}₴</h4>
           {originalPrice && (
             <span className="game-card-original-price">{originalPrice}₴</span>
           )}
