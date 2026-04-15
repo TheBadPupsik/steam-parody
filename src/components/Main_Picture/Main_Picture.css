@@ -1,23 +1,42 @@
-.Main_Picture {}
+.Main_Picture {
+    position: relative;
+}
 
 .Picture
 {
-    margin-top: 90px;
-    width: 1920px;
+    margin-top: 69px;
+    width: 100%;
     height: 520px;
     opacity: 1;
 }
 .Main_Frame{
-    width: 1464;
-    height: 88;
-    top: 376px;
+    position: absolute;
+    width: 1464px;
+    height: 88px;
+    top: 450px;
     left: 228px;
     justify-content: space-between;
     opacity: 1;
     display: flex;
     flex-direction: row;
 }
+.first_frame
+{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 40px;
+    gap: 16px;
+    opacity: 1;
 
+}
+.top_row
+{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 16px;
+}
 .first_frame button
 {
     width: 66px;
@@ -31,19 +50,20 @@
     padding-left: 12px;
     background-color:rgba(255, 111, 149, 1);
     border: none;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 38px;
 }
 .first_frame button p
 {
-    position: relative;
-    bottom: 15px;
     width: 42px;
     height: 20px;
     font-family: Artifakt Element;
     font-weight: 700;
     font-style: Bold;
     font-size: 16px;
-    leading-trim: NONE;
     line-height: 125%;
     letter-spacing: -1%;
 
@@ -55,9 +75,9 @@
     font-weight: 700;
     font-style: Bold;
     font-size: 32px;
-    leading-trim: NONE;
     line-height: 125%;
     letter-spacing: 0%;
+    color: rgba(241, 253, 255, 1);
 }
 #second
 {
@@ -65,9 +85,115 @@
     font-weight: 400;
     font-style: Regular;
     font-size: 32px;
-    leading-trim: NONE;
     line-height: 125%;
     letter-spacing: -1%;
     text-decoration: line-through;
+    color: rgba(204, 248, 255, 0.65);
+}
+#third
+{
+    width: 234px;
+    height: 20px;
+    font-family: Artifakt Element;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -1%;
+    display: flex;
+    align-self: center;
+    position: relative;
+    top:10px;
+    color: rgba(204, 248, 255, 0.65);
+}
+#fourth
+{
+    position: relative;
+    left: 140px;
+    width: 324px;
+    height: 26px;
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: rgba(241, 253, 255, 1);
+    text-align: right;
+}
+#fiveth
+{
+    position: relative;
+    bottom: 40px;
+    right: 8px;
+    width: 472px;
+    height: 48px;
+    font-family: Artifakt Element;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -1%;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+    text-align: right;
+}
+.second_frame
+{
+    display: flex;
+    flex-direction: row;
+    width: 158px;
+    height: 40px;
+    gap: 8px;
+    opacity: 1;
+}
+.third_frame
+{
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    height: 88px;
+    gap: 14px;
 
+}
+.left
+{
+    position: relative;
+    bottom: 300px;
+    left: 192px;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 20px;
+    padding: 6px;
+}
+.right
+{
+    position: relative;
+    bottom: 300px;
+    left: 1630px;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 20px;
+    padding: 6px;
+
+}
+.Small_Pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1464px;
+    height: 68px;
+    top: 630px;
+    left: 228px;
+    gap: 8px;
+    margin-top: -30px;
+}
+
+.Small_Pictures img
+{
+    height: 68px;
+    width: 139.2px;
+    border-radius: 15px;
 }

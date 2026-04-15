@@ -1,6 +1,6 @@
 .SearchPanel {
     max-width: 1464px;
-    margin: 106px auto; /* Отступ сверху останется, пока ты не доскроллишь до него */
+    margin: 0 auto;
     
     height: 52px;
     background-color: #046075;
@@ -13,7 +13,7 @@
     box-sizing: border-box;
 
     position: sticky; 
-    top: 130px;
+    bottom: 800px;
     z-index: 1000;
     
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);

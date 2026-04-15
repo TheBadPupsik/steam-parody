@@ -6,15 +6,19 @@ import { HorizontalCardsSquare } from '../HorizontalCardsBlock/HorizontalCardsBl
 import Search from '../Search/Search';
 import { Link } from 'react-router-dom';
 import './Mainpage.css';
+import { SliderOfVerticalCards } from '../VerticalCards/VerticalCards';
+import Main_Picture from '../Main_Picture/Main_Picture';
 
 function Mainpage() {
   return (
     <div className="Mainpage">
       <Header />
+      <Main_Picture />
       <Search></Search>
-      <SliderOfHorizontalCards/>
-      <HorizontalCardsSquare/>
-      <Footer/>
+      <SliderOfHorizontalCards />
+      {/* <SliderOfVerticalCards /> */}
+      <HorizontalCardsSquare />
+      <Footer />
     </div>
   );
 
