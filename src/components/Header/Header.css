@@ -1,0 +1,104 @@
+.Header {
+    background-color: #002F3D;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.Logo {
+    position: fixed;
+    width: 100px;
+    height: 24.6px;
+    top: 33px;
+    left: 228px;
+}
+
+.Secondary_button {
+    position: fixed;
+    background-color: #046075;
+    border: none;
+    color: white;
+    width: 91px;
+    height: 40px;
+    top: 25px;
+    left: 1601px;
+    opacity: 1;
+    gap: 8px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+
+.Secondary_button p {
+    position: relative;
+    bottom: 12px;
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+}
+
+.Tabs {
+    position: fixed;
+    width: 313;
+    height: 59;
+    top: 11px;
+    left: 803px;
+    opacity: 1;
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Tabs p {
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.Text {
+    width: 101;
+    height: 24;
+    opacity: 1;
+    color: rgba(73, 255, 222, 1);
+}
+
+.Text1 {
+    width: 106;
+    height: 24;
+    opacity: 1;
+    color: rgba(241, 253, 255, 1);
+}
+
+.Text2 {
+    width: 36;
+    height: 24;
+    opacity: 1;
+    color: rgba(241, 253, 255, 1);
+}
+
+.Ellipse {
+    position: relative;
+    width: 8px;
+    height: 8px;
+    bottom: 23px;
+    left: 46px;
+}
+
+.div_point {
+    width: 101;
+    height: 38;
+    opacity: 1;
+    gap: 6px;
+}
