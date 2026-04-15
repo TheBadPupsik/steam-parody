@@ -1,16 +1,17 @@
-import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer' ;
 import Header from '../Header/Header';
 import { SliderOfHorizontalCards } from '../HorizontalCards/HorizontalCards';
+// import { Main_Picture } from '../Main_Picture/Main_Picture';
 import Search from '../Search/Search';
 import './Mainpage.css';
 
 function Mainpage() {
   return (
     <div className="Mainpage">
-      <Header> </Header>
+      <Header/>
       <Search></Search>
       <SliderOfHorizontalCards/>
-      <Footer></Footer>
+      <Footer/>
     </div>
   );
 
