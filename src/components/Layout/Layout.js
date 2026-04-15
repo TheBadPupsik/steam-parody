@@ -1,11 +1,14 @@
 import Mainpage from '../Mainpage/Mainpage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './Layout.css';
 
 function Layout() {
   return (
-    <div className="Layout">
-      <Mainpage></Mainpage>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/MainPage" element={<Mainpage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
