@@ -1,63 +1,99 @@
 .SearchPanel {
     max-width: 1464px;
     margin: 106px auto;
-    padding: 0 228px;
-}
 
-.Search {
-    width: 100%;
-    max-width: 1344px;
     height: 52px;
     background-color: #046075;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4px 26px 4px 4px;
     border-radius: 20px;
-}
 
-.Panel {
-    width: 590px;
-    height: 44px;
-    background-color: #00141F66;
-    border-radius: 16px;
-    border: 1px solid transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     padding: 0 16px;
+    box-sizing: border-box;
 }
 
-.Panel h3 {
+/* --- Блок поиска (серый) --- */
+.Panel {
+    width: 400px;
+    height: 36px;
+    background-color: rgba(0, 20, 31, 0.4);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.SearchInput {
+    background: transparent;
+    border: none;
+    outline: none;
     color: #CCF8FFA6;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: -0.01em;
-    margin: 0;
-    padding: 0;
+    font-size: 14px;
+    width: 100%;
 }
 
-.Panel img {
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
+.SearchInput::placeholder {
+    color: #CCF8FFA6;
+}
+
+.SearchIcon {
+    width: 20px;
+    height: 20px;
     cursor: pointer;
 }
 
 .Selector {
     display: flex;
     align-items: center;
-    gap: 26px;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: 40px;
 }
 
-.Selector h3{
-    color:#F1FDFF;
+.SelectorLink {
+    color: #F1FDFF;
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.2s;
 }
 
-.Icons img {
+.SelectorLink:hover {
+    opacity: 0.8;
+}
+
+.SelectorLink.active {
+    font-weight: 700;
+    border-bottom: 2px solid #F1FDFF;
+    /* Пример выделения */
+}
+
+.IconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.IconObj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.IconObj:hover {
+    transform: scale(1.1);
+}
+
+.IconObj img {
     width: 24px;
     height: 24px;
-    flex-shrink: 0;
     cursor: pointer;
 }
