@@ -6,7 +6,7 @@ function Layout() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/MainPage" element={<Mainpage />} />
+        <Route path="/" element={<Mainpage />} />
       </Routes>
     </BrowserRouter>
   );
