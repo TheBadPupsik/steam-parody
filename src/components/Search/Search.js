@@ -4,7 +4,7 @@ import './Search.css';
 function Search() {
   return (
     <div className='SearchPanel'>
-      
+
       <div className="Panel">
         <input type="text" placeholder="Пошук у Крамниці..." className="SearchInput" />
         <img src='Icons.svg' alt='Icon' className="SearchIcon" />

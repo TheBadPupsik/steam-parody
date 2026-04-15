@@ -1,7 +1,7 @@
 .SearchPanel {
     max-width: 1464px;
-    margin: 106px auto;
-
+    margin: 106px auto; /* Отступ сверху останется, пока ты не доскроллишь до него */
+    
     height: 52px;
     background-color: #046075;
     border-radius: 20px;
@@ -9,12 +9,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 0 16px;
     box-sizing: border-box;
+
+    position: sticky; 
+    top: 130px;
+    z-index: 1000;
+    
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* --- Блок поиска (серый) --- */
 .Panel {
     width: 400px;
     height: 36px;
@@ -56,7 +60,6 @@
 .SelectorLink {
     color: #F1FDFF;
     text-decoration: none;
-    /* Убираем подчеркивание */
     font-size: 16px;
     font-weight: 500;
     transition: opacity 0.2s;
@@ -69,7 +72,6 @@
 .SelectorLink.active {
     font-weight: 700;
     border-bottom: 2px solid #F1FDFF;
-    /* Пример выделения */
 }
 
 .IconsContainer {
