@@ -1,5 +1,6 @@
 import { HorizontalCards } from '../HorizontalCards/HorizontalCards';
 import './HorizontalCardsBlock.css';
+import './HorizontalCards.css';
 
 const games = [
   { image: 'cyberpank.png', name: 'Cyberpunk 2077', price: 1099 },

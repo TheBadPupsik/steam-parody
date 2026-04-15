@@ -1,0 +1,51 @@
+.Footer {
+    position: relative;
+    background-color: rgba(0, 47, 61, 1);
+    width: 1920px;
+    height: 316px;
+    top: 3812px;
+    opacity: 1;
+}
+.Logo2
+{
+    position: relative;
+    width: 97.5px;
+    height: 24px;
+    top: 56px;
+    left: 228px;
+    opacity: 1;
+}
+.Icons{
+    position: relative;
+    width: 112px;
+    height: 32px;
+    top: 27px;
+    left: 1580px;
+    opacity: 1;
+    gap: 8px;
+}
+.text
+{
+    position: relative;
+    width: 808px;
+    height: 96px;
+    top: 50px;
+    left: 228px;
+    opacity: 1;
+    color: rgba(204, 248, 255, 0.65);
+}
+.text_name
+{
+    position: relative;
+    width: 749px;
+    height: 20px;
+    top: 50px;
+    left: 228px;
+    opacity: 1;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.text_name p{
+    color: rgba(241, 253, 255, 1);
+}
