@@ -16,7 +16,7 @@ function Mainpage() {
       <Search></Search>
       <Main_Picture />
       <SliderOfHorizontalCards />
-      {/* <SliderOfVerticalCards /> */}
+      <SliderOfVerticalCards />
       <HorizontalCardsSquare />
       <Footer />
     </div>

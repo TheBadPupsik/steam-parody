@@ -2,26 +2,26 @@ import './VerticalCards.css';
 import { useState } from 'react';
 
 const games = [
-  { image: './pictures/cyberpank.png', name: 'Cyberpunk 2077', price: 1099 },
-  { image: './pictures/witcher.png', name: 'Відьмак 3: Дикий гін', price: 729 },
-  { image: './pictures/manor.png', name: 'Manor Lords', price: 449, discount: 25, originalPrice: 599 },
-  { image: './pictures/rdr2.png', name: 'Red Dead Redemption 2', price: 899 },
-  { image: './pictures/elden.png', name: 'Elden Ring', price: 1299, discount: 10, originalPrice: 1499 },
+  { image: './pictures/bell.png', name: 'Bellwright', price: 600 },
+  { image: './pictures/stard.png', name: 'Stardew Valley', price: 229 },
+  { image: './pictures/ghost.png', name: 'Ghost of Tsushima', price: 1699},
+  { image: './pictures/avatar2.png', name: 'Avatar: Frontiers of Pandora', price: 911, discount: 40, originalPrice: 1519 },
+  { image: './pictures/halo.png', name: 'Halo: The Master Chief Collection', price: 1399},
 ];
 
 export function VerticalCards({ image, name, price, discount, originalPrice }) {
   return (
-    <div className='game-card-short'>
+    <div className='game-card-short-vert'>
       <img src={image} alt={name}></img>
-      <div className='game-card-short-info'>
+      <div className='game-card-short-info-vert'>
         <h2>{name}</h2>
-        <div className="game-card-price-row">
+        <div className="game-card-price-row-vert">
           {discount && (
-            <span className="game-card-discount">-{discount}%</span>
+            <span className="game-card-discount-vert">-{discount}%</span>
           )}
           <h4>{price}{typeof price === 'number' ? '₴' : ''}</h4>
           {originalPrice && (
-            <span className="game-card-original-price">{originalPrice}₴</span>
+            <span className="game-card-original-price-vert">{originalPrice}₴</span>
           )}
         </div>
       </div>
@@ -32,7 +32,7 @@ export function VerticalCards({ image, name, price, discount, originalPrice }) {
 export function SliderOfVerticalCards() {
 
   const [startIndex, setStartIndex] = useState(0);
-  const visibleCount = 3;
+  const visibleCount = 4;
   const total = games.length;
 
   const getGame = (i) => games[((i % total) + total) % total];
