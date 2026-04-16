@@ -1,7 +1,7 @@
 .SearchPanel {
     max-width: 1464px;
     margin: 0 auto;
-    
+
     height: 52px;
     background-color: #046075;
     border-radius: 20px;
@@ -12,10 +12,12 @@
     padding: 0 16px;
     box-sizing: border-box;
 
-    position: sticky; 
-    bottom: 800px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 700px;
     z-index: 1000;
-    
+
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 

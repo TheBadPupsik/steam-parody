@@ -13,8 +13,8 @@ function Mainpage() {
   return (
     <div className="Mainpage">
       <Header />
-      <Main_Picture />
       <Search></Search>
+      <Main_Picture />
       <SliderOfHorizontalCards />
       {/* <SliderOfVerticalCards /> */}
       <HorizontalCardsSquare />
