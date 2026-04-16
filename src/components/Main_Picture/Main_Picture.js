@@ -5,7 +5,7 @@ const pictures = [
   {
     image: 'main_picture.png',
     thumb: 'pic1',
-    discount: '40%',
+    discount: '-40%',
     price_new: '911₴',
     price_old: '1519₴',
     title: 'Avatar: Frontiers of Pandora',
@@ -14,7 +14,7 @@ const pictures = [
   {
     image: 'pic2.png',
     thumb: 'pic2',
-    discount: '45%',
+    discount: '-45%',
     price_new: '612₴',
     price_old: '1299₴',
     title: 'Red Dead Redemption 2',
@@ -23,7 +23,7 @@ const pictures = [
   {
     image: 'barotrauma.jpg',
     thumb: 'pic3',
-    discount: '55%',
+    discount: '-55%',
     price_new: '250₴',
     price_old: '550₴',
     title: 'Barotrauma',
@@ -95,29 +95,31 @@ export function Main_Picture() {
 
   return (
     <div>
-      <PictureItem image={currentGame.image} />
-      <img src="/pictures/left.png" alt="left" className="left" onClick={prev} />
-      <img src="/pictures/right.png" alt="right" className="right" onClick={next} />
+      <div className="picture-wrapper">
+        <PictureItem image={currentGame.image} />
+        <img src="/pictures/left.png" alt="left" className="left" onClick={prev} />
+        <img src="/pictures/right.png" alt="right" className="right" onClick={next} />
 
-      <div className="Main_Frame">
-        <div className="first_frame">
-          <div className="top_row">
-            <button>
-              <p>{currentGame.discount}</p>
-            </button>
+        <div className="Main_Frame">
+          <div className="first_frame">
+            <div className="top_row">
+              <button>
+                <p>{currentGame.discount}</p>
+              </button>
 
-            <div className="second_frame">
-              <p id="first">{currentGame.price_new}</p>
-              <p id="second">{currentGame.price_old}</p>
+              <div className="second_frame">
+                <p id="first">{currentGame.price_new}</p>
+                <p id="second">{currentGame.price_old}</p>
+              </div>
             </div>
+
+            <p id="third">Знижка діє до 24.06.2026 10:00</p>
           </div>
 
-          <p id="third">Знижка діє до 24.06.2024 10:00</p>
-        </div>
-
-        <div className="third_frame">
-          <p id="fourth">{currentGame.title}</p>
-          <p id="fiveth">{currentGame.text}</p>
+          <div className="third_frame">
+            <p id="fourth">{currentGame.title}</p>
+            <p id="fiveth">{currentGame.text}</p>
+          </div>
         </div>
       </div>
 
