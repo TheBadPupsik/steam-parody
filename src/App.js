@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
+import Mainpage from './components/Mainpage/Mainpage';
+import Catalog from './components/Catalog/Catalog';
 
 function App() {
   return (
-    <div className="App">
-      <Layout></Layout>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+          <Route index element={<Mainpage />} />
+          <Route path="catalog" element={<Catalog/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

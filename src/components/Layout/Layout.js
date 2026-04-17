@@ -1,20 +1,20 @@
-import Mainpage from '../Mainpage/Mainpage';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import './Layout.css';
+import { Link, Outlet } from 'react-router-dom'; import './Layout.css';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import Search from '../Search/Search';
 
 function Layout() {
   return (
-    <BrowserRouter>
-      <nav>
-        <Link to="/">Главная</Link>
-        <Link to="/catalog">Каталог</Link>
-      </nav>
+    <div>
+      <Header></Header>
+      <Search></Search>
 
-      <Routes>
-        <Route path="/" element={<Mainpage />} />
-        {/* <Route path="/catalog" element={<Catalog />} /> */}
-      </Routes>
-    </BrowserRouter>
+      <main>
+        <Outlet />
+      </main>
+
+      <Footer></Footer>
+    </div>
   );
 }
 
