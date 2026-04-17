@@ -10,11 +10,11 @@ const games = [
 ];
 
 const games2 = [
-  { image: './pictures/bell.png', name: 'FAR: Lone Sails',  price: 34, discount: 85, originalPrice: 229 },
-  { image: './pictures/stard.png', name: 'Placid Plastic Duck Simulator', price: 60 },
-  { image: './pictures/ghost.png', name: 'The Escape: Together', price: 74},
-  { image: './pictures/avatar2.png', name: 'Juro Janosik', price: 74, discount: 69, originalPrice: 245 },
-  { image: './pictures/halo.png', name: 'Halo: The Master Chief Collection', price: 1399},
+  { image: './pictures/far.png', name: 'FAR: Lone Sails',  price: 34, discount: 85, originalPrice: 229 },
+  { image: './pictures/duck.png', name: 'Placid Plastic Duck Simulator', price: 60 },
+  { image: './pictures/escape.png', name: 'The Escape: Together', price: 74},
+  { image: './pictures/juro.png', name: 'Juro Janosik', price: 74, discount: 69, originalPrice: 245 },
+  { image: './pictures/dig.png', name: 'A Game About Digging A Hole', price: 91},
 ];
 
 const collections = {
@@ -55,7 +55,7 @@ export function SliderOfVerticalCards({option}) {
   const next = () => setStartIndex(i => i + 1);
 
   return (
-    <div className="slider-wrapper">
+    <div className="slider-wrapper-vert">
       <button className="slider-btn slider-btn-left" onClick={prev}>‹</button>
       <div className="horizontal-slider">
         {Array.from({ length: visibleCount }, (_, i) => {

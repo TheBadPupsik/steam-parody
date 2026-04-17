@@ -1,0 +1,28 @@
+.block-info {
+    width: 1450px;
+    max-width: 90%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 40px auto 0px;
+}
+
+.block-info h2 {
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+}
+
+.block-info h3 {
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+}

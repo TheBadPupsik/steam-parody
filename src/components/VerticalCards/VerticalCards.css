@@ -71,23 +71,23 @@
     white-space: nowrap;
 }
 
-.slider-wrapper {
+.slider-wrapper-vert {
     position: relative;
     display: flex;
     align-items: center;
     width: 1500px;
-    margin: 0 auto;
-    margin-top: 100px;
     justify-content: center;
     width: 100%;
     max-width: 1500px;
-    margin: 100px auto 0;
+    margin: 0px auto 40px;
+    margin-top: -5px !important;
 }
 
 .horizontal-slider {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    scroll-behavior: smooth;
 }
 
 .slider-btn {
