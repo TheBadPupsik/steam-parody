@@ -5,11 +5,11 @@ import Search from '../Search/Search';
 
 function Layout() {
   return (
-    <div>
+    <div className="layout-wrapper">
       <Header></Header>
       <Search></Search>
 
-      <main>
+      <main className="main-content">
         <Outlet />
       </main>
 

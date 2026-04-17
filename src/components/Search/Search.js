@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'; // 1. Импортируем Link и NavLink
+import { Link, NavLink } from 'react-router-dom';
 import './Search.css';
 
 function Search() {
