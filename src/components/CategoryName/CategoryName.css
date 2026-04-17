@@ -25,4 +25,11 @@
     line-height: 120%;
     letter-spacing: 0%;
     color: #F1FDFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.block-info h3:hover {
+    scale: 1.05;
+    text-decoration: underline;
 }

@@ -1,0 +1,33 @@
+.wrapper-categories {
+    display: flex;
+    width: 1450px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto 0px;
+}
+
+
+.block-info-small {
+    display: flex;
+    width: 450px;
+    max-width: 90%;
+    justify-content: space-between;
+}
+
+.block-info-small h2 {
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+}
+
+.block-info-small h3 {
+    height: 12;
+    opacity: 1;
+    color: #F1FDFF;
+    font-size: 20px;
+    cursor: pointer;
+}
