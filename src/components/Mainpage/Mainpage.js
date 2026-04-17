@@ -10,7 +10,8 @@ function Mainpage() {
     <div className="Mainpage">
       <Main_Picture />
       <SliderOfHorizontalCards />
-      <SliderOfVerticalCards />
+      <SliderOfVerticalCards option={1}/>
+      <SliderOfVerticalCards option={2}/>
       <HorizontalCardsSquare />
     </div>
   );
