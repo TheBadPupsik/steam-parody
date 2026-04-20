@@ -1,9 +1,10 @@
+import Menu from '../Menu/Menu';
 import './Catalog.css';
 
 function Catalog() {
   return (
-    <div className="Catalog">
-      Catalog Component
+    <div className='blockForComponents'>
+      <Menu/>
     </div>
   );
 

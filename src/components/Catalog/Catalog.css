@@ -1,1 +1,10 @@
-.Catalog {}
+.blockForComponents {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 240px;
+}

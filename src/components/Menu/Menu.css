@@ -1,0 +1,179 @@
+.Menu {}
+
+.zagolovki {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+h2 {
+    font-family: Manrope;
+    color: white;
+}
+
+.zkunyt 
+{
+    color: #24E5C2;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #004252;
+    width: 348px;
+    height: 730px;
+    top: 270px;
+    left: 228px;
+    border-radius: 20px;
+    padding: 16px;
+    gap: 12px;
+}
+
+input {
+    display: flex;  
+    flex-direction: row;
+    width: 316px;
+    height: 44px;
+    border-radius: 22px;
+    border: 1px solid #046075;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    background-color: #00141F66;
+    color: grey;
+}
+
+
+
+.krestik {
+    width: 24px;
+    height: 24px;
+    margin-top: -55px;
+    margin-left: 300px;
+}
+
+
+.second-input {
+    display: flex;  
+    flex-direction: row;
+    width: 316px;
+    height: 40px;
+    border-radius: 16px;
+    border: 1px solid #046075;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    background-color: #00141F66;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+
+
+.price {
+    display: flex;
+    flex-direction: column;
+    background-color: #002F3D;
+    width: 316px;
+    height: 346px;
+    border-radius: 12px;
+    padding-bottom: 18px;
+    gap: 18px;
+}
+
+
+.verx {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px; 
+    box-sizing: border-box;
+}
+
+
+
+b {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+
+.chekbox {
+}
+
+.galochka {
+    width: 24px;
+    height: 24px;
+}
+
+.price-list {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    height: 20px;   
+    gap: 5px;  
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+
+.price-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #24E5C2;
+    border-radius: 50%;
+
+}
+
+
+.niz-sale {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.kvadrat {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #24E5C2;
+    border-radius: 6px;
+}
+
+
+.price-list1 {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    height: 30px;   
+    gap: 5px;  
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 10px;
+}
+
+
+.linia {
+    margin-top: 10px;
+    border: 1px solid #37C3FF40;
+    width: 284px;
+}
+
+
+/* 67 */
