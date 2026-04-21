@@ -52,7 +52,7 @@
     position: absolute;
     z-index: 100;
     top: 250px;
-    left: 300px;
+    left: 360px;
 }
 
 .sort-item {
@@ -64,6 +64,8 @@
     letter-spacing: -1%;
     color: #F1FDFF;
     margin-top: 10px;
+    transition: 1s all;
+    cursor: pointer;
 }
 
 .block-view {
@@ -79,5 +81,9 @@
 }
 
 .block-view img:hover {
+    filter: invert(20%) sepia(50%) saturate(2000%) hue-rotate(110deg) brightness(110%) contrast(70%);
+}
+
+.block-view img.active-icon {
     filter: invert(20%) sepia(50%) saturate(2000%) hue-rotate(110deg) brightness(110%) contrast(70%);
 }
