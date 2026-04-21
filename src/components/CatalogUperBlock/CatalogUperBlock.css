@@ -1,1 +1,83 @@
-.CatalogUperBlock {}
+.wrapper-view {
+    display: flex;
+    width: 1450px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-sort {
+    width: 300px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.name {
+    font-family: Artifakt Element;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -1%;
+    color: #CCF8FFA6;
+}
+
+.option {
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+}
+
+.sort-dropdown {
+    width: 232px;
+    height: auto;
+    min-height: 270px;
+    opacity: 1;
+    gap: 5px;
+    border-radius: 8px;
+    border: 1px solid #046075;
+    background-color: #004252;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    position: absolute;
+    z-index: 100;
+    top: 250px;
+    left: 300px;
+}
+
+.sort-item {
+    font-family: Artifakt Element;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -1%;
+    color: #F1FDFF;
+    margin-top: 10px;
+}
+
+.block-view {
+    width: 110px;
+    opacity: 1;
+    display: flex;
+    gap: 16px;
+}
+
+.block-view img {
+    cursor: pointer;
+    transition: filter 0.2s ease-in-out;
+}
+
+.block-view img:hover {
+    filter: invert(20%) sepia(50%) saturate(2000%) hue-rotate(110deg) brightness(110%) contrast(70%);
+}
