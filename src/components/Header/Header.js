@@ -15,11 +15,14 @@ export function Header() {
         </div>
 
         <div className='Icons'>
-        <NavLink to='/settings'>
-          <span className='Icon'><img src="./images/settings-fill.svg" alt="icon" /></span>
+
+        <NavLink to='/settings' className='Icon'>
+        <img src="./images/settings-fill.svg" alt="icon" />
         </NavLink>
+
           <span className='Icon'><img src="./images/Bell.svg" alt="icon" /></span>
           <img className='ProfileCircle' src='./images/profile-avatar.jpg' alt='avatar'></img>
+
         </div>
 
         {/* <button className='Secondary_button'><p>Увійти</p></button> */}

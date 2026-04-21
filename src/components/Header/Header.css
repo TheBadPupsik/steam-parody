@@ -18,6 +18,10 @@
     height: 24px;
 }
 
+.Icon.active {
+    background-color: #37c3ff64;
+}
+
 .Icons {
     display: flex;
     justify-content: center;
