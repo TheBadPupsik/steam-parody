@@ -9,9 +9,7 @@ export function Header() {
         <NavLink to='/'><img src="./pictures/logo.png" alt="logo" className='Logo'></img></NavLink>
 
         <div className='Tabs'>
-          <div className='div_point'>
-            <NavLink to='/' className='Text'><p>Крамниця</p></NavLink>
-          </div>
+            <NavLink to='/' className='Text'>Крамниця</NavLink>
           <p className='Text'>Бібліотека</p>
           <p className='Text'>Чат</p>
         </div>
