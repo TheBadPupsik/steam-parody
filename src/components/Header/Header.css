@@ -2,6 +2,39 @@
     text-decoration: none;
 }
 
+.Icon {
+    width: 26px;
+    height: 26px;
+    padding: 14px;
+    border-radius: 20px;
+    background-color: #37C3FF1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.Icon.active {
+    background-color: #37c3ff64;
+}
+
+.Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ProfileCircle {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
+
 .Header {
     background-color: #002F3D;
     width: 100%;
