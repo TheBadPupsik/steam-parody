@@ -1,9 +1,10 @@
+import { SideBar } from '../SideBar/SideBar';
 import './LibraryPage.css';
 
 function LibraryPage() {
   return (
-    <div className="LibraryPage">
-      LibraryPage Component
+    <div>
+      <SideBar/>
     </div>
   );
 }
