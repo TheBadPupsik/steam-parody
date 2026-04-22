@@ -2,6 +2,8 @@ import './CardsWishlists.css';
 
 const cardsData = [
   { id: 1, image: './images/ARK.png', tags: ['шутер', 'екшн', 'виживання', 'наукова фантастика', 'відкритий світ'], name: 'ARK: Survival Evolved', rate: 4.5, price: 1000, discount: '40%', originalPrice: 1000, discountEnd: '30.02.2023 10:00' },
+  { id: 2, image: './images/ARK.png', tags: ['шутер', 'екшн', 'виживання', 'наукова фантастика', 'відкритий світ'], name: 'ARK: Survival Evolved', rate: 4.5, price: 1000, discount: '40%', originalPrice: 1000, discountEnd: '30.02.2023 10:00' },
+
 ];
 
 function CardsWishlists(props) {
@@ -17,12 +19,14 @@ function CardsWishlists(props) {
           <h2 className='GameCardName'>{name}</h2>
           <img src='./images/Cross.svg' alt='Cross' className='CrossIcon' />
         </div>
+
         <div className='GameCardTags'>
           {visibleTags.map((tag, index) => (
             <span key={index} className='GameCardTag'>{tag}</span>
           ))}
           {extraTags > 0 && <span className='GameCardTag'>+{extraTags}</span>}
         </div>
+          
         <div className='GameCardBottom'>
           <div className='GameCardRate'>
             <span>{rate}</span>
