@@ -1,0 +1,80 @@
+.game-card-price-row-vert {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+}
+
+.game-card-price-row-vert h4 {
+    font-family: Artifakt;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F1FDFF;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.game-card-discount-vert {
+    background: #FF6F95;
+    color: #00141F;
+    font-size: 13px;
+    font-style: Bold;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.game-card-original-price-vert {
+    font-size: 16px;
+    color: #7aabb8;
+    text-decoration: line-through;
+    white-space: nowrap;
+}
+
+.list-card {
+    background-color: #002F3D;
+    width: 100%;
+    width: 1092px;
+    height: 88px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.list-card h2 {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: Bold;
+    line-height: 1.2;
+    color: #F1FDFF;
+}
+
+.list-card img {
+    width: 306px;
+    height: 88px;
+    object-fit: cover;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.list-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    max-width: 1092px;
+    gap: 18px;
+}

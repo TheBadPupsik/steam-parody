@@ -57,19 +57,11 @@ export function ViewBLock({ viewMode, setViewMode }) {
           className={viewMode === 'grid' ? 'active-icon' : ''}
           onClick={() => setViewMode('grid')}
         />
-        <img src='/images/list.svg' 
-          className={viewMode === 'list' ? 'active-icon' : ''} 
+        <img src='/images/list.svg'
+          className={viewMode === 'list' ? 'active-icon' : ''}
           onClick={() => setViewMode('list')}
         />
       </div>
-
-      {/* <div className={viewMode === 'grid' ? 'products-grid-container' : 'products-list-container'}>
-        {games.map(game => (
-          viewMode === 'grid' 
-            ? <ProductCardGrid key={game.id} {...game} /> 
-            : <ProductCardList key={game.id} {...game} />
-        ))}
-      </div> */}
     </div>
   )
 }
