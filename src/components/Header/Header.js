@@ -10,8 +10,8 @@ export function Header() {
 
         <div className='Tabs'>
           <NavLink to='/' className='Text'>Крамниця</NavLink>
-          <p className='Text'>Бібліотека</p>
-          <p className='Text'>Чат</p>
+          <NavLink to='/library' className='Text'>Бібліотека</NavLink>
+          <NavLink to='/chat' className='Text'>Чат</NavLink>
         </div>
 
         <div className='Icons'>

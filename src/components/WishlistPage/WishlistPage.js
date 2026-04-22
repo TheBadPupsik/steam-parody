@@ -1,9 +1,14 @@
+import { CardsWishlistsRender } from '../CardsWishlists/CardsWishlists';
+import Menu from '../Menu/Menu';
 import './WishlistPage.css';
 
-const WishlistPage = () => (
-  <div className="WishlistPage">
-    WishlistPage Component
-  </div>
-);
+function WishlistPage() {
+  return (
+    <div className='wishlist-container'>
+    <Menu/>
+    <CardsWishlistsRender/>
+    </div>
+  );
+}
 
 export default WishlistPage;

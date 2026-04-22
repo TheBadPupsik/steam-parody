@@ -5,6 +5,7 @@ import Catalog from './components/Catalog/Catalog';
 import Settings from './components/Settings/Settings';
 import WishlistPage from './components/WishlistPage/WishlistPage';
 import CartPage from './components/CartPage/CartPage';
+import LibraryPage from './components/LibraryPage/LibraryPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Mainpage />} />
+          <Route path="library" element={<LibraryPage/>} />
           <Route path="catalog" element={<Catalog/>} />
           <Route path="settings" element={<Settings/>} /> 
           <Route path="wishlist" element={<WishlistPage/>} />
