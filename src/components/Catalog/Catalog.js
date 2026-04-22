@@ -1,6 +1,6 @@
 import { ViewBLock } from '../CatalogUperBlock/CatalogUperBlock';
+import { ChangeBlock } from '../ChangeBlock/ChangeBlock';
 import Menu from '../Menu/Menu';
-import { VerticalCardsSquare } from '../VerticalCardsBlock/VerticalCardsBlock';
 import './Catalog.css';
 import { useState } from 'react';
 
@@ -12,7 +12,7 @@ function Catalog() {
       <ViewBLock viewMode={viewMode} setViewMode={setViewMode} />
       <div className='blockForComponents'>
         <Menu />
-        <VerticalCardsSquare />
+        <ChangeBlock viewMode={viewMode}/>
       </div>
     </div>
   );
