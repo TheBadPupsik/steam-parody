@@ -1,0 +1,64 @@
+.Community {}
+
+.main_title_com
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1464px;
+    height: 72px;
+    top: 261px;
+    left: 228px;
+    justify-content: space-between;
+}
+.main_title_com_1
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 252px;
+    height: 72px;
+    gap: 12px;
+}
+.main_title_com_1 p
+{
+    position: absolute;
+    top: -21px;
+    width: 252px;
+    height: 40px;
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    leading-trim: NONE;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: rgba(241, 253, 255, 1);
+}
+.first_sub
+{
+    display: flex;
+    flex-direction: row;
+    width: 153px;
+    height: 20px;
+    gap: 8px;
+}
+.second_sub
+{
+    display: flex;
+    flex-direction: row;
+    width: 55px;
+    height: 20px;
+    gap: 8px;
+}
+.first_text_comm
+{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -1%;
+    color: rgba(241, 253, 255, 1);
+
+}

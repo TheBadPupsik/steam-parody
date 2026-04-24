@@ -18,6 +18,7 @@ function App() {
           <Route path="settings" element={<Settings/>} /> 
           <Route path="wishlist" element={<WishlistPage/>} />
           <Route path="cart" element={<CartPage/>} />
+          <Route path="cart" element={<CartPage/>} />
         </Route>
       </Routes>
     </BrowserRouter>
