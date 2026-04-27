@@ -14,7 +14,6 @@ import {Community} from './components/Community/Community'
 function App() {
   return (
     <BrowserRouter>
-    <Navigation></Navigation>
 
       <Routes>
         <Route path='/' element={<Layout/>}>
@@ -27,9 +26,9 @@ function App() {
           <Route path="cart" element={<CartPage/>} />
           <Route path="cart" element={<CartPage/>} />
 
-          <Route path="/about_game" element={<About_Game></About_Game>}/>
-          <Route path="/characteristics" element={<Characteristics></Characteristics>}/>
-          <Route path="/community" element={<Community></Community>}/>
+          <Route path="/about_game" element={<><Navigation/><About_Game/></>}/>
+          <Route path="/characteristics" element={<><Navigation/><Characteristics/></>}/>
+          <Route path="/community" element={<><Navigation/><Community/></>}/>
         </Route>
       </Routes>
     </BrowserRouter>
