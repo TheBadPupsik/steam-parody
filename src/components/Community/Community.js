@@ -3,7 +3,7 @@ import './Community.css';
 export function Community()
 {
   return(
-    <div className='app'>
+    <div className='app_com'>
         <div className='main_title_com'>
           <div className='main_title_com_1'>
             <p className='title_cyberpunk'>Cyberpunk 2077</p>

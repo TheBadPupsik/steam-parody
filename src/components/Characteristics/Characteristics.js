@@ -59,7 +59,7 @@ export function Characteristics()
   const data = systemsData[system];
 
   return(
-    <div className='app'>
+    <div className='app_char'>
         <p className='text_of_game'>Cyberpunk 2077</p>
         <div className='windows_choice' onClick={() => setOpen(!open)}>
           

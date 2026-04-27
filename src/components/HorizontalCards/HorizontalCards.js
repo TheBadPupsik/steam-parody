@@ -1,5 +1,6 @@
 import './HorizontalCards.css';
 import { useState } from 'react';
+import { NavLink } from "react-router-dom";
 
 const games = [
   { image: './pictures/cyberpank.png', name: 'Cyberpunk 2077', price: 1099 },
@@ -10,23 +11,36 @@ const games = [
 ];
 
 export function HorizontalCards({ image, name, price, discount, originalPrice }) {
-  return (
+
+  const cardContent = (
     <div className='game-card-short'>
       <img src={image} alt={name}></img>
+
       <div className='game-card-short-info'>
         <h2>{name}</h2>
+
         <div className="game-card-price-row">
           {discount && (
             <span className="game-card-discount">-{discount}%</span>
           )}
+
           <h4>{price}{typeof price === 'number' ? '₴' : ''}</h4>
+
           {originalPrice && (
             <span className="game-card-original-price">{originalPrice}₴</span>
           )}
         </div>
       </div>
     </div>
-  )
+  );
+  if (name === "Cyberpunk 2077") {
+    return (
+      <NavLink to="/about_game" className="card-link">
+        {cardContent}
+      </NavLink>
+    );
+  }
+  return cardContent;
 }
 
 export function SliderOfHorizontalCards() {

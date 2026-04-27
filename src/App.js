@@ -6,11 +6,16 @@ import Settings from './components/Settings/Settings';
 import WishlistPage from './components/WishlistPage/WishlistPage';
 import CartPage from './components/CartPage/CartPage';
 import LibraryPage from './components/LibraryPage/LibraryPage';
-import Community from './components/Community/Community';
+import { Navigation } from './components/Navigation/Navigation';
+import { About_Game } from './components/About_Game/About_Game';
+import {Characteristics} from './components/Characteristics/Characteristics'
+import {Community} from './components/Community/Community'
 
 function App() {
   return (
     <BrowserRouter>
+    <Navigation></Navigation>
+
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Mainpage />} />
@@ -21,6 +26,10 @@ function App() {
           <Route path="commmunity" element={<Community/>} />
           <Route path="cart" element={<CartPage/>} />
           <Route path="cart" element={<CartPage/>} />
+
+          <Route path="/about_game" element={<About_Game></About_Game>}/>
+          <Route path="/characteristics" element={<Characteristics></Characteristics>}/>
+          <Route path="/community" element={<Community></Community>}/>
         </Route>
       </Routes>
     </BrowserRouter>

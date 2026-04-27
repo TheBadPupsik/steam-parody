@@ -8,7 +8,7 @@
     position: relative;
     width: 1464px;
     height: 72px;
-    top: 261px;
+    top: 231px;
     left: 228px;
     justify-content: space-between;
 }
@@ -404,11 +404,7 @@
     margin-top: -22px;
     margin-bottom: -22px;
 }
-
-
-
-
-.app
+.app_com
 {
     min-height: 1000px;
 }
