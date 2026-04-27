@@ -6,6 +6,7 @@ import Settings from './components/Settings/Settings';
 import WishlistPage from './components/WishlistPage/WishlistPage';
 import CartPage from './components/CartPage/CartPage';
 import LibraryPage from './components/LibraryPage/LibraryPage';
+import Community from './components/Community/Community';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="catalog" element={<Catalog/>} />
           <Route path="settings" element={<Settings/>} /> 
           <Route path="wishlist" element={<WishlistPage/>} />
+          <Route path="commmunity" element={<Community/>} />
           <Route path="cart" element={<CartPage/>} />
           <Route path="cart" element={<CartPage/>} />
         </Route>
