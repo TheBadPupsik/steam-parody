@@ -1,11 +1,13 @@
 import './SideBar.css';
 
 const games = [
-  { image: './pictures/bell.png', name: 'Bellwright' },
-  { image: './pictures/stard.png', name: 'Stardew Valley'},
-  { image: './pictures/ghost.png', name: 'Ghost of Tsushima'},
-  { image: './pictures/avatar2.png', name: 'Avatar: Frontiers of Pandora' },
-  { image: './pictures/halo.png', name: 'Halo: The Master Chief Collection'},
+  { image: './pictures/fallout.png', name: 'Fallout 4' },
+  { image: './pictures/2077.png', name: 'Cyberpunk 2077'},
+  { image: './pictures/legacy.png', name: 'Hogwarts Legacy'},
+  { image: './pictures/eldenr.png', name: 'ELDEN RING' },
+  { image: './pictures/black.png', name: 'Black Desert'},
+  { image: './pictures/world.png', name: 'Monster Hunter: World'},
+  { image: './pictures/forest.png', name: 'Sons Of The Forest'},
 ];
 
 export function SideBar() {

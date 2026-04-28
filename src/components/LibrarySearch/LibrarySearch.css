@@ -1,0 +1,83 @@
+.SearchPanel-lib {
+    max-width: 1464px;
+    margin-left: 380px;
+    height: 52px;
+    background-color: #046075;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 106px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Panel-lib {
+    width: 710px;
+    height: 36px;
+    background-color: rgba(0, 20, 31, 0.4);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.SearchInput-lib {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #CCF8FFA6;
+    font-size: 14px;
+    width: 100%;
+}
+
+.SearchInput-lib::placeholder {
+    color: #CCF8FFA6;
+}
+
+.SearchIcon-lib {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.filter-lib {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 8px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.filter-lib h2 {
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.filter-lib img {
+    cursor: pointer;
+}
+
+.left-panel {
+    width: 710px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}

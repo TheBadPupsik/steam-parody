@@ -1,1 +1,14 @@
-.LibraryPage {}
+.block-lib {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 90px;
+    justify-content: space-around;
+}
+
+.block-lib-right {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}

@@ -27,7 +27,7 @@ export function About_Game()
 
       <div className="pictures_small">
           <div className='small_div'>шутер</div>
-          <div className='small_div'>екшн</div>
+          <div className='small_div'>екшен</div>
           <div className='small_div'>кіберпанк</div>
           <div className='small_div'>оголеність</div>
           <div className='small_div'>відкритий сайт</div>
