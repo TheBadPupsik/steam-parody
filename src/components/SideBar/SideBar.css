@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin-top: 10px;
 }
 
 .up-block h1 {
@@ -30,4 +31,33 @@
     width: 40px;
     height: 40px;
     border-radius: 8px;
+}
+
+.bar-item {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 16px;
+    width: 240px;
+    height: 40px;
+}
+
+.library-games-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 580px;
+    gap: 20px;
+    margin-left: 20px;
+
+}
+
+.bar-item h2 {
+    font-family: Artifakt Element;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+
 }

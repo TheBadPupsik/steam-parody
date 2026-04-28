@@ -1,10 +1,10 @@
 import './CategoryName.css';
 
-export function CategoryNameBlock({title}) {
+export function CategoryNameBlock({title,text}) {
   return (
     <div className='block-info'>
       <h2>{title}</h2>
-      <h3>Дивитись більше ›</h3>
+      <h3>{text} ›</h3>
     </div>
   )
 }

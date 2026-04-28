@@ -1,0 +1,45 @@
+.wrapper-lib {
+    width: 1464px;
+    gap: 24px;
+    margin-left: 80px;
+}
+
+.library-card {
+    background-color: #002F3D;
+    width: 472px;
+    height: 424px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.library-card img {
+    width: 472px;
+    height: 184px;
+    object-fit: cover;
+}
+
+.avatar {
+    width: 114px;
+    height: 28px;
+    gap: 8px;
+    border-radius: 20px;
+    padding-right: 12px;
+    background-color: #004252;
+}
+
+.avatar img {
+    width: 28px;
+    height: 28px;
+}
+
+.avatar p {
+    font-family: Artifakt Element;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -1%;
+}

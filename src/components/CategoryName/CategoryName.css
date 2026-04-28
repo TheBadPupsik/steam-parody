@@ -4,14 +4,14 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
-    margin: 40px auto 0px;
+    margin: 60px auto 0px;
 }
 
 .block-info h2 {
     font-family: Manrope;
     font-weight: 700;
     font-style: Bold;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 125%;
     letter-spacing: 0%;
     color: #F1FDFF;
