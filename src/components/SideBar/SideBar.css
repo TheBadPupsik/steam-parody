@@ -1,0 +1,33 @@
+.side-bar {
+    background-color: #004252;
+    width: 328px;
+    height: 991px;
+    top: 89px;
+    overflow: hidden;
+}
+
+.up-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.up-block h1 {
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+}
+
+.up-block img {
+    cursor: pointer;
+}
+
+.bar-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
