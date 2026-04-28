@@ -128,7 +128,9 @@ export function Characteristics()
             <p className='Sound_text'>{data.rec.sound}</p>
         </div>
 
-        <div className='title_68'>
+      
+          <div className='Main_Div_2'>
+            <div className='title_68'>
           <p>5.0</p>
           <div className='stars_second'>
             <img src='/pictures/star.png' alt="star" className='star'/>
@@ -138,8 +140,6 @@ export function Characteristics()
             <img src='/pictures/star.png' alt="star" className='star'/>
           </div>
         </div>
-
-          <div className='Main_Div'>
           <div className='Main_Div_First'>
             <img src='/pictures/main_picture_about.png' alt="picture" className='Main_div_picture' />
             <p className='Main_div_text'>1 099₴</p>

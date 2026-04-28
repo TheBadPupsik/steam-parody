@@ -1,4 +1,6 @@
-.About_Game {}
+.About_Game {
+
+}
 
 .title
 {
@@ -12,7 +14,7 @@
     letter-spacing: 0%;
     width: 252px;
     height: 40px;
-    top: 200px;
+    top: 199px;
     left: 228px;
     gap: 16px;
     color: rgba(241, 253, 255, 1);
@@ -139,11 +141,11 @@ body
 {
     display: flex;
     flex-direction: row;
-    position:absolute;
+
     width: 245px;
     height: 32px;
-    top: 270px;
-    left: 1447px;
+    margin-bottom: 20px;
+    margin-left: 100px;
     gap: 15px;
     angle: 0 deg;
     opacity: 1;
@@ -172,12 +174,8 @@ body
 }
 .Main_Div
 {
-    position: absolute;
-    width: 348px;
-    height: 1013px;
-    top: 333px;
-    left: 1344px;
-    gap: 32px;
+    margin-top: -591px;
+    margin-left: 1350px;
 }
 .Main_Div_First
 {
@@ -524,12 +522,11 @@ body
 }
 .Main_of_main
 {
-    position: absolute;
+    margin-top: -200px;
+    margin-left: 230px;
     width: 1092px;
     height: 1900px;
     gap: 32px;
-    top: 1131px;
-    left: 228px;
 }
 .Main_of_first
 {
@@ -1204,7 +1201,6 @@ body
     font-weight: 600;
     font-style: Medium;
     font-size: 16px;
-    leading-trim: NONE;
     line-height: 125%;
     letter-spacing: 0%;
     color: #CCF8FFA6;
@@ -1223,6 +1219,9 @@ body
     width: 40px;
     height: 40px;
 }
+
 .app {
-  min-height: 3000px;
+    width: 1440px;
+    margin-left: calc(50% - 960px);
 }
+

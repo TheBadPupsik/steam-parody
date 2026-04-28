@@ -41,7 +41,10 @@ export function About_Game()
           <center><img src='/pictures/Vector.png' alt="vector" className='picture_small_vector'/></center>
         </div>
 
-        <div className='title_1'>
+
+
+        <div className='Main_Div'>
+          <div className='title_1'>
           <p>5.0</p>
           <div className='stars'>
             <img src='/pictures/star.png' alt="star" className='star'/>
@@ -51,8 +54,7 @@ export function About_Game()
             <img src='/pictures/star.png' alt="star" className='star'/>
           </div>
         </div>
-
-        <div className='Main_Div'>
+        
           <div className='Main_Div_First'>
             <img src='/pictures/main_picture_about.png' alt="picture" className='Main_div_picture' />
             <p className='Main_div_text'>1 099₴</p>
