@@ -1,7 +1,10 @@
 .wrapper-lib {
     width: 1464px;
     gap: 24px;
-    margin-left: 80px;
+    margin-left: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .library-card {
@@ -22,12 +25,15 @@
 }
 
 .avatar {
-    width: 114px;
+    width: 134px;
     height: 28px;
     gap: 8px;
     border-radius: 20px;
     padding-right: 12px;
     background-color: #004252;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .avatar img {
@@ -42,4 +48,118 @@
     font-size: 16px;
     line-height: 125%;
     letter-spacing: -1%;
+}
+
+.library-card-up {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 424px;
+}
+
+.library-card-up img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.library-card-mid h2 {
+    font-family: Artifakt Element;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-right: 90px;
+}
+
+.library-card-mid {
+    width: 424px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 22px;
+}
+
+.library-card-mid p {
+    font-family: Artifakt Element;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -1%;
+    width: 424px;
+    height: 72px;
+}
+
+
+.likes,
+.comments {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    padding: 4px 8px;
+    background-color: #37C3FF1F;
+    border-radius: 8px;
+    height: 32px;
+}
+
+.likes img,
+.comments img {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.likes h5 {
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #CCF8FFA6;
+}
+
+.library-card-down {
+    width: 424px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto auto 40px auto;
+    position: relative;
+    bottom: 5%;
+}
+
+.comments h5 {
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #CCF8FFA6;
+}
+
+.library-card-down-left {
+    width: 170px;
+    height: 32px;
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.library-card-down h4 {
+    font-family: Artifakt Element;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 114.99999999999999%;
+    letter-spacing: -1%;
+    color: #CCF8FFA6;
 }
