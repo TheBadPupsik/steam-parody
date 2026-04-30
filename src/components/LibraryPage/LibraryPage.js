@@ -12,8 +12,9 @@ function LibraryPage() {
         <SideBar />
         <div className='block-lib-right'>
           <CategoryNameBlock title={'Новини'} text={'Усі новини'} />
-          <LibraryCardsBlock/>
+          <LibraryCardsBlock option={1} />
           <CategoryNameBlock title={'Цікаве від Спільноти'} text={'Моя стрічка'} />
+          <LibraryCardsBlock option={1} />
         </div>
       </div>
     </div >
