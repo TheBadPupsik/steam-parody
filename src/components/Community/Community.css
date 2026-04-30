@@ -129,11 +129,21 @@
     margin-bottom: -430px;
 }
 
-.f_sort,
-.s_sort{
+.f_sort{
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+.s_sort nav
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.active_link {
+  background-color: #37C3FF40;
+  padding: 5px 10px;
+  border-radius: 6px;
 }
 
 .sort_pop{
@@ -166,7 +176,7 @@
     font-size: 16px;
 }
 
-.s_sort p{
+.s_sort a{
     margin: 0;
     font-family: Inter;
     font-weight: 700;
@@ -177,7 +187,6 @@
 
 #first_first{
     border-radius: 12px;
-    background-color: #37C3FF40;
 }
 
 .f_big_card,
@@ -225,13 +234,18 @@
     gap: 12px;
     border-radius: 20px;
     padding-right: 16px;
+    height: 100%;
     background-color: #004252;
 }
 
 .ava_plus_nickname p{
-    font-family: Inter;
-    font-size: 14px;
-    color: #CCF8FFA6;
+   font-family: Inter;
+    font-weight: 500;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -1%;
+    margin: 0px;
 }
 
 .etc_comm{
@@ -248,6 +262,15 @@
     font-size: 20px;
     color: #F1FDFF;
     margin: 0;
+}
+#fir
+{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+#just_fix_me
+{
+    margin-top: -20px;
 }
 
 #sec,
@@ -266,6 +289,12 @@
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
 }
 
 .third_desc div{

@@ -1,0 +1,16 @@
+.News {}
+
+.first_cards_news
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #002F3D;
+}
+#fix_picture
+{
+    margin-bottom: 25px;
+}

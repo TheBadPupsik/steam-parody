@@ -1,4 +1,5 @@
 import './Community.css';
+import { NavLink } from 'react-router-dom';
 
 export function Community()
 {
@@ -39,13 +40,15 @@ export function Community()
             <input className='input_button' placeholder='Пошук: Усі розділи'/>
           </div>
 
-          <div className='s_sort'>
-            <p id='first_first'>Усі розділи</p>
-            <p>Форум</p>
-            <p>Скріншоти</p>
-            <p>Відео</p>
-            <p>Гайди</p>
-            <p>Новини</p>
+          <div className="s_sort"> 
+            <nav> 
+              <NavLink to="/community" className={({ isActive }) => isActive ? "active_link" : ""} id="first_first" > Усі розділи </NavLink> 
+              <NavLink to="/forum" className={({ isActive }) => isActive ? "active_link" : ""} > Форум </NavLink> 
+              <NavLink to="/screenshotes" className={({ isActive }) => isActive ? "active_link" : ""} > Скріншоти </NavLink> 
+              <NavLink to="/videos" className={({ isActive }) => isActive ? "active_link" : ""} > Відео </NavLink> 
+              <NavLink to="/guides" className={({ isActive }) => isActive ? "active_link" : ""} > Гайди </NavLink> 
+              <NavLink to="/news" className={({ isActive }) => isActive ? "active_link" : ""} > Новини </NavLink> 
+              </nav> 
           </div>
         </div>
 
@@ -53,7 +56,7 @@ export function Community()
           <div className='f_big_card'>
             <img src='/pictures/first_pic_big.png' alt="pic"/>
             <div className='f_big_desc'>
-              <div className='first_desc'>
+              <div className='first_desc' id='just_fix_me'>
                 <div className='ava_plus_nickname'>
                   <div><img src='/pictures/kruta_ava.png' alt="ava"/><p>NikaNii</p></div>
                   <p>25.02.2024</p>
