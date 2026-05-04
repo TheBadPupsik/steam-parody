@@ -14,7 +14,13 @@ function LibraryPage() {
           <CategoryNameBlock title={'Новини'} text={'Усі новини'} />
           <LibraryCardsBlock option={1} />
           <CategoryNameBlock title={'Цікаве від Спільноти'} text={'Моя стрічка'} />
-          <LibraryCardsBlock option={1} />
+          <LibraryCardsBlock option={2} />
+          <div className='headlines'>
+            <h2>Усі ігри</h2>
+            <h2>Обране</h2>
+            <h2>Моя колекція</h2>
+            <img src='./images/create.svg'/>
+          </div>
         </div>
       </div>
     </div >

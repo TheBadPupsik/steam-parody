@@ -1,9 +1,11 @@
 .side-bar {
     background-color: #004252;
     width: 328px;
-    height: 991px;
+    height: 100vh;
     top: 89px;
     overflow: hidden;
+    left: 0;
+    position: fixed;
 }
 
 .up-block {
