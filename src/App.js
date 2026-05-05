@@ -10,6 +10,8 @@ import { About_Game } from './components/About_Game/About_Game';
 import { Characteristics } from './components/Characteristics/Characteristics'
 import { Community } from './components/Community/Community'
 import { CartPageRender } from './components/CartPage/CartPage';
+import ProfilePage from './components/ProfilePage/ProfilePage';
+import ChatPage from './components/ChatPage/ChatPage';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="wishlist" element={<WishlistPage />} />
           <Route path="commmunity" element={<Community />} />
           <Route path="cart" element={<CartPageRender>  </CartPageRender>} />
+          <Route path="profile" element={<ProfilePage/>} />
+          <Route path='chat' element={<ChatPage/>}/>
 
           <Route path="/about_game" element={<><Navigation /><About_Game /></>} />
           <Route path="/characteristics" element={<><Navigation /><Characteristics /></>} />
