@@ -1,4 +1,5 @@
 import './DLC.css';
+import { NavLink } from 'react-router-dom';
 
 export function DLC()
 {
@@ -173,43 +174,23 @@ export function DLC()
             <div className='Main_of_first'>
                 <div className='complects'>
                   <p>Комплекти</p>
-                    <div className='complects_second'>
+                    <div className='complects_second2'>
                       <div className='first_complect2'>
                           <div id='div_dlc'>
                             <button>Базова гра</button>
                             <p>Cyberpunk 2077</p>
                           </div>
                         
-                        <div className='price_desc'>
-                          <p id='put_text'>1 099₴</p>
-                          <button><p>У кошик</p></button>
+                        <div className='price_desc2'>
+                          <p id='put_text2'>1 099₴</p>
+                          <button disabled><p className='navig_text' id='navigation_all_dlcs'><NavLink to="/about_game" onClick={() => window.scrollTo(0,0)}> У кошик </NavLink></p></button>
                         </div>
-                      </div>
-                      <div className='povne_Bidanna'>
-                        <p>Cyberpunk: Повне видання</p>
-                        <div className='description_povne'>
-                          <p id='second_p'>Вміст:</p>
-                          <li>Cyberpunk</li>
-                          <li>Cyberpunk 2077: Ілюзія свободи</li> 
-                        </div>
-                        <div className='price_sell'>
-                          <div className='sell_buy'></div>
-                            <div className='price_'>
-                              <div className='red_button'>-8%</div>
-                              <div className='old_new_price'>
-                                <p id='new_price'>1 516₴</p>
-                                <p id='old_price'>1 750₴</p>
-                              </div>
-                            </div>
-                            <p id='sell_p'>Знижка діє до 24.07.2024 10:00</p>
-                        </div>
-                        <button><p>У кошик</p></button>
                       </div>
                     </div>
                 </div>
           
                 <div className='Another_DLC'>
-                    <div className='first_dlc'>
+                    <div className='first_dlc' id='second_dlc'>
                       <p>Інші DLC</p>
                       <div className='first_dlc_all'>
                         <p>Усі DLC</p>
@@ -234,12 +215,12 @@ export function DLC()
 
                     <div className='third_dlc'>
                       <p>549₴</p>
-                      <button>Додати в кошик усі DLC</button>
+                      <button disabled><p className='navig_text' id='navigation_all_dlcs'><NavLink to="/dlc_pages" onClick={() => window.scrollTo(0,0)}> Додати в кошик усі DLC </NavLink></p></button>
                     </div>
                 </div>
             </div>
 
-            <div className='Main_of_second'>
+            <div className='Main_of_second' id='third_dlc'>
               <div className='Recencii'>
                 <p>Рецензії</p>
                 <button>Написати рецензію</button>
