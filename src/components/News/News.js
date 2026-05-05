@@ -53,9 +53,9 @@ export function News()
         </div>
 
         <div className='main_div_community'>
-          <div className='first_cards_news' id='fix_videos'>
-            <img src='/pictures/portal.png' alt="pic" id='fix_picture'/>
-            <div className='f_big_desc'>
+          <div className='first_cards_news'  id='fix_picture2'>
+            <img src='/pictures/portal.png' alt="pic"/>
+            <div className='f_big_desc2'>
               <div className='first_desc' id='just_fix_me'>
                 <div className='ava_plus_nickname'>
                   <div><img src='/pictures/kruta_ava.png' alt="ava"/><p>NikaNii</p></div>
@@ -77,7 +77,7 @@ export function News()
 
           <div className='first_cards_news'>
             <img src='/pictures/portal.png' alt="pic"/>
-            <div className='f_big_desc'>
+            <div className='f_big_desc2'>
               <div className='first_desc' id='just_fix_me'>
                 <div className='ava_plus_nickname'>
                   <div><img src='/pictures/kruta_ava.png' alt="ava"/><p>NikaNii</p></div>
@@ -99,7 +99,7 @@ export function News()
 
           <div className='first_cards_news'>
             <img src='/pictures/portal.png' alt="pic"/>
-            <div className='f_big_desc'>
+            <div className='f_big_desc2'>
               <div className='first_desc' id='just_fix_me'>
                 <div className='ava_plus_nickname'>
                   <div><img src='/pictures/kruta_ava.png' alt="ava"/><p>NikaNii</p></div>
@@ -121,7 +121,7 @@ export function News()
 
           <div className='first_cards_news'>
             <img src='/pictures/portal.png' alt="pic"/>
-            <div className='f_big_desc'>
+            <div className='f_big_desc2'>
               <div className='first_desc' id='just_fix_me'>
                 <div className='ava_plus_nickname'>
                   <div><img src='/pictures/kruta_ava.png' alt="ava"/><p>NikaNii</p></div>
@@ -143,7 +143,7 @@ export function News()
 
           <div className='first_cards_news'>
             <img src='/pictures/portal.png' alt="pic"/>
-            <div className='f_big_desc'>
+            <div className='f_big_desc2'>
               <div className='first_desc' id='just_fix_me'>
                 <div className='ava_plus_nickname'>
                   <div><img src='/pictures/kruta_ava.png' alt="ava"/><p>NikaNii</p></div>
@@ -162,8 +162,6 @@ export function News()
               </div>
             </div>
           </div>
-
-           
 
         </div>
     </div>

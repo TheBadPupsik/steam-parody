@@ -1,24 +1,20 @@
-import './About_Game.css';
-import { NavLink } from 'react-router-dom';
+import './DLC.css';
 
-export function About_Game()
+export function DLC()
 {
   const images = [
-    "/pictures/screenshotes/Rectangle 122.png",
-    "/pictures/screenshotes/Rectangle 123.png",
-    "/pictures/screenshotes/Rectangle 124.png",
-    "/pictures/screenshotes/Rectangle 125.png",
-    "/pictures/screenshotes/Rectangle 126.png",
-    "/pictures/screenshotes/Rectangle 127.png",
-    "/pictures/screenshotes/Rectangle 129.jpg",
-    "/pictures/screenshotes/Rectangle 130.webp",
-    "/pictures/screenshotes/Rectangle 134.png",
+    "/pictures/dlc_1.png",
+    "/pictures/dlc_2.png",
+    "/pictures/dlc_3.png",
+    "/pictures/dlc_4.png",
+    "/pictures/dlc_5.png",
+    "/pictures/dlc_6.png",
   ];
 
   return (
     <div className='app'>
-      <p className='title'>Cyberpunk 2077</p>
-      <img src='/pictures/main_picture_about.png' alt="main" className='main_picture_about' />
+      <p className='title'>Cyberpunk 2077: Ілюзія свободи</p>
+      <img src='/pictures/dlc_main.png' alt="main" className='main_picture_about' />
 
       <div className='slider'>
         {images.map((img, index) => (
@@ -57,7 +53,7 @@ export function About_Game()
         </div>
         
           <div className='Main_Div_First'>
-            <img src='/pictures/main_picture_about.png' alt="picture" className='Main_div_picture' />
+            <img src='/pictures/dlc_prev.png' alt="picture" className='Main_div_picture' />
             <p className='Main_div_text'>1 099₴</p>
               <div className='buttons_div'>
                 <button className='first_b'>
@@ -178,16 +174,12 @@ export function About_Game()
                 <div className='complects'>
                   <p>Комплекти</p>
                     <div className='complects_second'>
-                      <div className='first_complect'>
-                        <p>Cyberpunk 2077</p>
-                        <div className='main_info_card'>
-                          <p id='first_p'>Cyberpunk 2077 — пригодницький рольовий екшн у відкритому світі мегаполісу Найт-Сіті, де у ролі кіберпанкового найманця ви боротиметеся за виживання. Гра вдосконалена і має новий безкоштовний вміст. Налаштуйте персонажа й ігровий стиль, виконуючи завдання, нарощуючи репутацію і відкриваючи апгрейди. Будуючи взаємини і здійснюючи вибір, ви формуєте сюжет і світ навколо. Тут народжуються легенди. Якою буде ваша?</p>
-                          <p id='second_p'>Вміст:</p>
-                          <li>Cyberpunk</li>
-                          <li>Крутий контент</li>
-                          <li>Дуже корисний контент</li>
-                          <li>Якийсь цікавий контент</li>
-                        </div>
+                      <div className='first_complect2'>
+                          <div id='div_dlc'>
+                            <button>Базова гра</button>
+                            <p>Cyberpunk 2077</p>
+                          </div>
+                        
                         <div className='price_desc'>
                           <p id='put_text'>1 099₴</p>
                           <button><p>У кошик</p></button>
@@ -211,7 +203,7 @@ export function About_Game()
                             </div>
                             <p id='sell_p'>Знижка діє до 24.07.2024 10:00</p>
                         </div>
-                        <button><p className='navig_text'><NavLink to="/dlc">У кошик</NavLink></p></button>
+                        <button><p>У кошик</p></button>
                       </div>
                     </div>
                 </div>
@@ -404,4 +396,4 @@ export function About_Game()
       </div>
     );
   }
-  export default About_Game;
+  export default DLC;
