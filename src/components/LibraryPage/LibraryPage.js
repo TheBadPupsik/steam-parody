@@ -37,8 +37,20 @@ function LibraryPage() {
                     viewMode === 'grid' ? (
                     <img src={picture.image} className='games-block-img' alt="game" />
                   ) : (
-                    <div>
-                      <img src={picture.image} className='games-list-img' alt="game" />
+                    <div className='game-list-card'>
+                      <img src="./pictures/game.png" className='games-list-img' alt="game" />
+                      <div className='part1'>
+                        <h1>Название игры</h1>
+                        <button>Скачати</button>
+                      </div>
+                      <div className='part2'>
+                        <h3>Розмір на диску</h3>
+                        <h2>10 ГБ</h2>
+                      </div>
+                      <div className='part3'>
+                        <img src='./pictures/star1.png'></img>
+                        <img src='./pictures/more.png'></img>
+                      </div>
                     </div>
                   )
                   ))
