@@ -4,9 +4,17 @@ import { LibSearch } from '../LibrarySearch/LibrarySearch';
 import { SideBar } from '../SideBar/SideBar';
 import './LibraryPage.css';
 
-const pictures = [{image: './pictures/1'}]
+const pictures = [{ image: './pictures/1.png' }, { image: './pictures/2.png' }, { image: './pictures/3.png' }, { image: './pictures/4.png' },
+{ image: './pictures/5.png' }, { image: './pictures/6.png' }, { image: './pictures/7.png' }, { image: './pictures/8.png' }, { image: './pictures/9.png' },{ image: './pictures/10.png' },]
 
 function LibraryPage() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  function addBlock() {
+    setIsOpen(true)
+  }
+
   return (
     <div>
       <LibSearch />
@@ -21,10 +29,14 @@ function LibraryPage() {
             <h2>Усі ігри</h2>
             <h2>Обране</h2>
             <h2>Моя колекція</h2>
-            <img src='./images/create.svg'/>
+            <img src='./images/create.svg' onClick={addBlock}/>
           </div>
-          <div>
-
+          <div className='games-block'>
+              {
+                pictures.map((picture) => (
+                  <img src={picture.image} className='games-block-img' alt="game"/>
+                ))
+              }
           </div>
         </div>
       </div>

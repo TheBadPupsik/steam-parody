@@ -23,7 +23,7 @@
     width: 504px;
     height: 40px;
     gap: 45px;
-    margin-left: 100px;
+    margin-left: 80px;
     display: flex;
     align-items: center;
     margin-top: 40px;
@@ -61,8 +61,27 @@
     position: absolute;
     bottom: -10px;
     left: 0;
-    width: 100%; 
+    width: 100%;
     height: 4px;
     background-color: #24E5C2;
     border-radius: 10px;
+}
+
+.games-block {
+    width: 1464px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    min-height: 632px;
+}
+
+.games-block-img {
+    width: 100%;
+    height: 342px;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 20px;
+    object-fit: cover;
 }
