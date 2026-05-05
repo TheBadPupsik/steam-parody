@@ -17,6 +17,9 @@ import { Guides } from './components/Guides/Guides'
 import { News } from './components/News/News'
 import {DLC} from './components/DLC/DLC'
 import {Dlc_Pages} from './components/Dlc_Pages/Dlc_Pages'
+import { DLC } from './components/DLC/DLC'
+import ChatPage from './components/ChatPage/ChatPage';
+import ProfilePage from './components/ProfilePage/ProfilePage';
 
 function App() {
   return (
@@ -30,6 +33,8 @@ function App() {
           <Route path="wishlist" element={<WishlistPage />} />
           <Route path="commmunity" element={<Community />} />
           <Route path="cart" element={<CartPageRender>  </CartPageRender>} />
+          <Route path="profile" element={<ProfilePage />} />
+          <Route path='chat' element={<ChatPage />} />
 
           <Route path="/about_game" element={<><Navigation /><About_Game /></>} />
           <Route path="/characteristics" element={<><Navigation /><Characteristics /></>} />

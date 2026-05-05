@@ -1,0 +1,22 @@
+.MenuProfile {
+    width: 205px;
+    height: 326px;
+    border-radius: 8px;
+    padding: 10px 12px 10px 12px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #004252;
+    z-index: 501;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.ProfileTag {
+    gap: 10px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #F1FDFF;
+}
