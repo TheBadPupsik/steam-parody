@@ -11,12 +11,13 @@ const pictures = [{ image: './pictures/1.png' }, { image: './pictures/2.png' }, 
 function LibraryPage() {
 
   const [isOpen, setIsOpen] = useState(false);
+  const [viewMode, setViewMode] = useState('grid');
 
   const toggleModal = () => setIsOpen(!isOpen);
 
   return (
     <div>
-      <LibSearch />
+      <LibSearch viewMode={viewMode} setViewMode={setViewMode} />
       <div className='block-lib'>
         <SideBar />
         <div className='block-lib-right'>
@@ -30,15 +31,21 @@ function LibraryPage() {
             <h2>Моя колекція</h2>
             <img src='./images/create.svg' onClick={toggleModal} />
           </div>
-          <div className='games-block'>
-            {
-              pictures.map((picture) => (
-                <img src={picture.image} className='games-block-img' alt="game" />
-              ))
-            }
+          <div className={viewMode === 'grid' ? 'games-block' : 'games-list'}>
+                {
+                  pictures.map((picture) => (
+                    viewMode === 'grid' ? (
+                    <img src={picture.image} className='games-block-img' alt="game" />
+                  ) : (
+                    <div>
+                      <img src={picture.image} className='games-list-img' alt="game" />
+                    </div>
+                  )
+                  ))
+                }
           </div>
         </div>
-        
+
         {isOpen && (
           <div className='modal-overlay' onClick={toggleModal}>
             <div className='modal-content' onClick={(e) => e.stopPropagation()}>

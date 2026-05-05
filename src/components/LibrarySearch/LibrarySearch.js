@@ -1,6 +1,6 @@
 import './LibrarySearch.css';
 
-export function LibSearch() {
+export function LibSearch({ viewMode, setViewMode }) {
   return (
     <div className='SearchPanel-lib'>
 
@@ -16,14 +16,15 @@ export function LibSearch() {
         </div>
       </div>
 
-    <div className='block-view'>
+      <div className='block-view'>
         <h3 className='name'>Вид:</h3>
         <img src='/images/grid.svg'
-          className='grid'
-
+          className={viewMode === 'grid' ? 'active-icon' : ''}
+          onClick={() => setViewMode('grid')}
         />
         <img src='/images/list.svg'
-          className='list'
+          className={viewMode === 'list' ? 'active-icon' : ''}
+          onClick={() => setViewMode('list')}
         />
       </div>
 
