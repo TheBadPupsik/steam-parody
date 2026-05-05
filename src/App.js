@@ -15,11 +15,11 @@ import { ScreenShotes } from './components/ScreenShotes/ScreenShotes'
 import { Videos } from './components/Videos/Videos'
 import { Guides } from './components/Guides/Guides'
 import { News } from './components/News/News'
+import {DLC} from './components/DLC/DLC'
 
 function App() {
   return (
     <BrowserRouter>
-
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Mainpage />} />
@@ -38,6 +38,7 @@ function App() {
           <Route path="/videos" element={<><Navigation /><Videos /></>} />
           <Route path="/guides" element={<><Navigation /><Guides /></>} />
           <Route path="/news" element={<><Navigation /><News /></>} />
+          <Route path="/dlc" element={<><Navigation /><DLC /></>} />
         </Route>
       </Routes>
     </BrowserRouter>

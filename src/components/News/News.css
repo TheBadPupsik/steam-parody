@@ -10,7 +10,15 @@
     overflow: hidden;
     background-color: #002F3D;
 }
-#fix_picture
+#fix_picture2
 {
-    margin-bottom: 25px;
+    margin-top: -34px;
+}
+.f_big_desc2
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 24px 24px;
 }
