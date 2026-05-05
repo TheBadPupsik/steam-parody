@@ -1,0 +1,11 @@
+.Dlc_Pages {}
+
+.main_picrure_all_dcls
+{
+    display: flex;
+    position: relative;
+    width: 1920px;
+    height: 448px;
+    margin-top: -90px;
+    z-index: 100;
+}

@@ -927,12 +927,12 @@ body
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 346px;
+    width: 376px;
     height: 48px;
     gap: 16px;
     position: relative;
     margin-top: 25px;
-    left: 68.5%;
+    left: 66.5%;
 }
 .third_dlc p
 {
@@ -946,7 +946,7 @@ body
 }
 .third_dlc button
 {
-    width: 281px;
+    width: 301px;
     height: 48px;
     gap: 12px;
     border-radius: 20px;
@@ -998,6 +998,7 @@ body
 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 194px;
     height: 40px;
     gap: 8px;
@@ -1220,6 +1221,7 @@ body
 }
 .navig_text a
 {
+    width: 100%;
     display: flex;
     justify-content: center;
     font-family: Inter;

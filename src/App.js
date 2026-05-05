@@ -16,6 +16,7 @@ import { Videos } from './components/Videos/Videos'
 import { Guides } from './components/Guides/Guides'
 import { News } from './components/News/News'
 import {DLC} from './components/DLC/DLC'
+import {Dlc_Pages} from './components/Dlc_Pages/Dlc_Pages'
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/guides" element={<><Navigation /><Guides /></>} />
           <Route path="/news" element={<><Navigation /><News /></>} />
           <Route path="/dlc" element={<><Navigation /><DLC /></>} />
+          <Route path="/dlc_pages" element={<><Navigation /><Dlc_Pages /></>} />
         </Route>
       </Routes>
     </BrowserRouter>

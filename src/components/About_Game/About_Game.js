@@ -211,7 +211,7 @@ export function About_Game()
                             </div>
                             <p id='sell_p'>Знижка діє до 24.07.2024 10:00</p>
                         </div>
-                        <button><p className='navig_text'><NavLink to="/dlc">У кошик</NavLink></p></button>
+                        <button disabled><p className='navig_text'><NavLink to="/dlc" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}> У кошик </NavLink></p></button>
                       </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@ export function About_Game()
 
                     <div className='third_dlc'>
                       <p>549₴</p>
-                      <button>Додати в кошик усі DLC</button>
+                      <button disabled><p className='navig_text' id='navigation_all_dlcs'><NavLink to="/dlc_pages" onClick={() => window.scrollTo(0,0)}> Додати в кошик усі DLC </NavLink></p></button>
                     </div>
                 </div>
             </div>
