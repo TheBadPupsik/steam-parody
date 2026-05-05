@@ -16,6 +16,8 @@ import { Videos } from './components/Videos/Videos'
 import { Guides } from './components/Guides/Guides'
 import { News } from './components/News/News'
 import {DLC} from './components/DLC/DLC'
+import ChatPage from './components/ChatPage/ChatPage';
+import ProfilePage from './components/ProfilePage/ProfilePage';
 
 function App() {
   return (
