@@ -1,7 +1,12 @@
 import './Header.css';
 import { Link, NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import MenuProfile from '../MenuProfile/MenuProfile';
 
 export function Header() {
+
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <div className='Header'>
       <div className='Head'>
@@ -16,14 +21,22 @@ export function Header() {
 
         <div className='Icons'>
 
-        <NavLink to='/settings' className='Icon'>
-        <img src="./images/settings-fill.svg" alt="icon" />
-        </NavLink>
+          <NavLink to='/settings' className='Icon'>
+            <img src="./images/settings-fill.svg" alt="icon" />
+          </NavLink>
 
           <span className='Icon'><img src="./images/Bell.svg" alt="icon" /></span>
-          <img className='ProfileCircle' src='./images/profile-avatar.jpg' alt='avatar'></img>
+
+          <span onClick={() => setShowMenu(!showMenu)}
+            style={{ position: 'relative' }}
+          >
+            <img className='ProfileCircle' src='./images/profile-avatar.jpg' alt='avatar'></img>
+            {showMenu && <MenuProfile />}
+
+          </span>
 
         </div>
+
 
         {/* <button className='Secondary_button'><p>Увійти</p></button> */}
 

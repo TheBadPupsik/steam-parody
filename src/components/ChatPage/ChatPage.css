@@ -1,0 +1,26 @@
+.ChatPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 45vh;
+}
+
+.ChatWindow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #004252;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.ChatWindow h1 {
+  color: #F1FDFF;
+  font-size: 24px;
+}
+
+.ChatWindow p {
+  color: #888;
+  font-size: 16px;
+}

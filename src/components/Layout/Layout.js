@@ -5,7 +5,7 @@ import Search from '../Search/Search';
 
 function Layout() {
   const location = useLocation();
-  const hideSearch = ['/settings', '/library'];
+  const hideSearch = ['/settings', '/library', '/profile', '/chat'];
   const footerSearch = ['/settings'];
   const isSearchHidden = hideSearch.includes(location.pathname);
   const isFooterHidden = footerSearch.includes(location.pathname);
