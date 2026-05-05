@@ -3,6 +3,7 @@ import { LibraryCardsBlock } from '../LibraryCards/LibraryCards';
 import { LibSearch } from '../LibrarySearch/LibrarySearch';
 import { SideBar } from '../SideBar/SideBar';
 import './LibraryPage.css';
+import React, { useState } from 'react';
 
 const pictures = [{ image: './pictures/1.png' }, { image: './pictures/2.png' }, { image: './pictures/3.png' }, { image: './pictures/4.png' },
 { image: './pictures/5.png' }, { image: './pictures/6.png' }, { image: './pictures/7.png' }, { image: './pictures/8.png' }, { image: './pictures/9.png' },{ image: './pictures/10.png' },]
