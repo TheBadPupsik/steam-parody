@@ -1,4 +1,5 @@
 import './About_Game.css';
+import { NavLink } from 'react-router-dom';
 
 export function About_Game()
 {
@@ -210,7 +211,7 @@ export function About_Game()
                             </div>
                             <p id='sell_p'>Знижка діє до 24.07.2024 10:00</p>
                         </div>
-                        <button><p>У кошик</p></button>
+                        <button><p className='navig_text'><NavLink to="/dlc">У кошик</NavLink></p></button>
                       </div>
                     </div>
                 </div>
