@@ -4,6 +4,8 @@ import { LibSearch } from '../LibrarySearch/LibrarySearch';
 import { SideBar } from '../SideBar/SideBar';
 import './LibraryPage.css';
 
+const pictures = [{image: './pictures/1'}]
+
 function LibraryPage() {
   return (
     <div>
@@ -20,6 +22,9 @@ function LibraryPage() {
             <h2>Обране</h2>
             <h2>Моя колекція</h2>
             <img src='./images/create.svg'/>
+          </div>
+          <div>
+
           </div>
         </div>
       </div>
