@@ -55,10 +55,8 @@
     scrollbar-color: rgba(0, 20, 31, 1) rgba(55, 195, 255, 0.25);
     border-radius: 10px; 
     padding: 10px 0;
-    object-fit: contain;
-    
+    object-fit: contain;   
 }
-
 .slide_img {
     width: 200px;
     height: 110px;
@@ -1234,7 +1232,9 @@ body
 }
 
 .app {
+    margin-bottom: 550px;
     width: 1440px;
     margin-left: calc(50% - 960px);
 }
+
 
