@@ -28,6 +28,7 @@ export function Header() {
           <span className='Icon'><img src="./images/Bell.svg" alt="icon" /></span>
 
           <span onClick={() => setShowMenu(!showMenu)}
+          
             style={{ position: 'relative' }}
           >
             <img className='ProfileCircle' src='./images/profile-avatar.jpg' alt='avatar'></img>

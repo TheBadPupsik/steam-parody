@@ -1232,7 +1232,7 @@ body
 }
 
 .app {
-    margin-bottom: 550px;
+    margin-bottom: 100px;
     width: 1440px;
     margin-left: calc(50% - 960px);
 }

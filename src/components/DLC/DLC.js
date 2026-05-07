@@ -13,7 +13,7 @@ export function DLC()
   ];
 
   return (
-    <div className='app'>
+    <div className='app_dlc'>
       <p className='title'>Cyberpunk 2077: Ілюзія свободи</p>
       <img src='/pictures/dlc_main.png' alt="main" className='main_picture_about' />
 
