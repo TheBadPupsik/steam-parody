@@ -99,17 +99,9 @@
 {
     margin-top: -640px;
 }
-/* #navigation_all_dlcs
+.app_dlc
 {
-    font-family: Inter;
-    font-weight: 300;
-    font-style: Medium;
-    font-size: 10px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    color: rgba(0, 20, 31, 1);
-} */
-.app
-{
-    height: 2450px;
+    margin-bottom: -500px;
+    width: 1440px;
+    margin-left: calc(50% - 960px);
 }
