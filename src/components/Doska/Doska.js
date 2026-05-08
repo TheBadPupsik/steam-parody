@@ -7,7 +7,7 @@ export function Doska() {
 
   return (
     <div>
-      <div className='block'>
+      <div className='block_doska'>
         <input className='block_input' type='text' placeholder='Пошук налаштувань...' />
         <div className='block_settings'>
 
@@ -19,7 +19,8 @@ export function Doska() {
             <label class="switch">
             <input type="checkbox"/>
             <span class="slider"></span>
-          </label>          </div>
+          </label>          
+          </div>
 
           <NavLink to='/general' className='settings'>
             <img src='/pictures/Icons (1).png' className='icon_settings' alt='' />

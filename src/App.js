@@ -19,6 +19,12 @@ import {Dlc_Pages} from './components/Dlc_Pages/Dlc_Pages'
 import { DLC } from './components/DLC/DLC'
 import ChatPage from './components/ChatPage/ChatPage';
 import ProfilePage from './components/ProfilePage/ProfilePage';
+// import Delete_accaount from './components/Delete_accaount/delete_accaount'
+import Doska from './components/Doska/Doska'
+// import GeneralSettings from './components/GeneralSettings'
+// import Notifications from './components/Notifications/Notifications'
+
+
 
 function App() {
   return (
@@ -28,7 +34,7 @@ function App() {
           <Route index element={<Mainpage />} />
           <Route path="library" element={<LibraryPage />} />
           <Route path="catalog" element={<Catalog />} />
-          <Route path="settings" element={<Settings />} />
+          <Route path="settings" element={<><Settings/> <Doska/></>} />
           <Route path="wishlist" element={<WishlistPage />} />
           <Route path="commmunity" element={<Community />} />
           <Route path="cart" element={<CartPageRender>  </CartPageRender>} />

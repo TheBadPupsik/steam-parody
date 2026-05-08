@@ -1,7 +1,7 @@
 .Doska {}
 
 
-.block {
+.block_doska {
     display: flex;
     flex-direction: column;
     align-items: center;

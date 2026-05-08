@@ -2,6 +2,7 @@ import './Header.css';
 import { Link, NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import MenuProfile from '../MenuProfile/MenuProfile';
+import Doska from '../Doska/Doska'
 
 export function Header() {
 
