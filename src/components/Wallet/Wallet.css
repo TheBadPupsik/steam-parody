@@ -1,0 +1,59 @@
+.wallet {}
+
+.wallet_b {
+    color: black;
+    margin-top: 15px;
+}
+
+.block_wallet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 596px;
+    height: 308px;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 22px;
+    background: #004252;
+}
+
+
+.wallet_blochik_cost {
+
+}
+
+
+.block_wallet_general{
+    margin-left: 848px;
+    margin-top: 129px;
+}
+
+
+
+.input_wallet {
+    width: 452px;
+    height: 40px;
+    border-radius: 22px;
+    border: 1px solid #046075;
+    background: #00141F66;
+    padding-left: 13px;
+}
+
+
+
+.wallet_input_button {
+    width: 665px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.pay_wallet {
+    width: 136px;
+    height: 40px;
+    border-radius: 20px;
+    background: #24E5C2;
+}
+
+

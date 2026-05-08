@@ -1,0 +1,158 @@
+.Doska {}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 348px;
+    height: auto;
+    margin-top: 129px;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 12px;
+    background-color: #004252;
+    margin-left: 228px;
+}
+
+
+.block_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 308px;
+    height: 40px;
+    border-radius: 22px;
+    border: 1px solid #046075;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    background-color: #00141F66;
+    color: gray;
+}
+
+.tema_nazvanie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 149px;
+    height: 40px;
+    padding-top:8px ;
+    padding-bottom: 8px;
+    gap: 12px;
+}
+
+p {
+    color: white;
+}
+
+
+.tema {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 308px;
+    height: 40px;
+}
+
+
+.pereklutiatel {
+    width: 36px;
+    height: 20px;
+}
+
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 308px;
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+
+.settings.active {
+  background-color: #37C3FF40; 
+}
+
+
+.block_settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 308px;
+    gap: 8px;
+}
+
+
+
+.settings_password {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 308px;
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+
+
+.settings_message {
+            display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 308px;
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+.settings_cash {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 308px;
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+
+.settings_accaunt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 308px;
+    height: 40px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    gap: 12px;
+    border-radius: 12px; 
+}

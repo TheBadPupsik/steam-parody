@@ -1,0 +1,75 @@
+.delete_accaount {}
+
+
+
+.b_delete_accaount {
+    color: rgb(255, 255, 255);
+    align-self: flex-start;
+}
+
+
+.block_delete_accaount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 596px;
+    margin-top: 129px;
+    margin-left: 848px;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 24px;
+    padding: 20px;
+    background: #002F3D;
+}
+
+
+.button_delete_accaount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 212px;
+    height: 40px;
+    border-radius: 20px;
+    background: #FFA599;
+}
+
+
+.input_delete_account {
+    width: 556px;
+    height: 40px;
+    border-radius: 22px;
+    background: #00141F66;
+    border: 1px solid #046075;
+    padding-left: 10px;
+}
+
+
+.text_input_delete_accaount {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.block_warning_delete_accaount {
+    width: 556px;
+    background: #FF6F952E;
+    border-radius: 16px;
+    padding: 12px;
+
+}
+
+.p_red_delete_accaount {
+    color: #FFA599;
+}
+
+
+.p_delte_accaount {
+    color: white;
+}
+
+
+.h2_delete_accaount {
+    color: white;
+}
