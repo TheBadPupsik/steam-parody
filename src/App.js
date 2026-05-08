@@ -22,7 +22,8 @@ import ProfilePage from './components/ProfilePage/ProfilePage';
 // import Delete_accaount from './components/Delete_accaount/delete_accaount'
 import Doska from './components/Doska/Doska'
 // import GeneralSettings from './components/GeneralSettings'
-// import Notifications from './components/Notifications/Notifications'
+import Notifications from './components/Notifications/Notifications'
+import Password from './components/password/password'
 
 
 
@@ -50,7 +51,7 @@ function App() {
           <Route path="/guides" element={<><Navigation /><Guides /></>} />
           <Route path="/news" element={<><Navigation /><News /></>} />
           <Route path="/dlc" element={<><Navigation /><DLC /></>} />
-          <Route path="/dlc_pages" element={<><Navigation /><Dlc_Pages /></>} />
+          <Route path="/dlc_pages" element={<><Navigation /><Dlc_Pages /></>}/>
         </Route>
       </Routes>
     </BrowserRouter>
