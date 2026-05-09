@@ -52,6 +52,7 @@ function App() {
           <Route path="/news" element={<><Navigation /><News /></>} />
           <Route path="/dlc" element={<><Navigation /><DLC /></>} />
           <Route path="/dlc_pages" element={<><Navigation /><Dlc_Pages /></>}/>
+          <Route path="/password" element={<Password></Password>} />
         </Route>
       </Routes>
     </BrowserRouter>
