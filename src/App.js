@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Mainpage from './components/Mainpage/Mainpage';
 import Catalog from './components/Catalog/Catalog';
@@ -19,11 +19,12 @@ import {Dlc_Pages} from './components/Dlc_Pages/Dlc_Pages'
 import { DLC } from './components/DLC/DLC'
 import ChatPage from './components/ChatPage/ChatPage';
 import ProfilePage from './components/ProfilePage/ProfilePage';
-// import Delete_accaount from './components/Delete_accaount/delete_accaount'
+import Delete_accaount from './components/Delete_accaount/delete_accaount'
 import Doska from './components/Doska/Doska'
-// import GeneralSettings from './components/GeneralSettings'
+import GeneralSettings from './components/GeneralSettings/GeneralSettings'
 import Notifications from './components/Notifications/Notifications'
 import Password from './components/password/password'
+import Wallet from './components/Wallet/Wallet';
 
 
 
@@ -53,6 +54,10 @@ function App() {
           <Route path="/dlc" element={<><Navigation /><DLC /></>} />
           <Route path="/dlc_pages" element={<><Navigation /><Dlc_Pages /></>}/>
           <Route path="/password" element={<Password></Password>} />
+          <Route path="/general" element={<GeneralSettings></GeneralSettings>}/>
+          <Route path='/deleteAccount' element={<Delete_accaount></Delete_accaount>}/>
+          <Route path='/wallet' element={<Wallet></Wallet>}/>
+          <Route path='/notifications' element={<Notifications></Notifications>}/>
         </Route>
       </Routes>
     </BrowserRouter>

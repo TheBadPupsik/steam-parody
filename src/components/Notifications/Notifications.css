@@ -14,7 +14,7 @@
   height: 0;
 }
 
-.slider {
+.slider_inout {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -27,7 +27,7 @@
   border-radius: 34px;
 }
 
-.slider:before {
+.slider_inout:before {
   position: absolute;
   content: "";
   height: 14px;
@@ -37,15 +37,15 @@
   border-radius: 50%;
 }
 
-input:checked + .slider {
+input:checked + .slider_inout {
   background-color: #02606d; 
 }
 
-input:checked + .slider:before {
+input:checked + .slider_inout:before {
   transform: translateX(15px);
 }
 
-.slider:hover {
+.slider_inout:hover {
   border-color: #008b9c;
 }
 
@@ -94,7 +94,7 @@ input:checked + .slider:before {
 
 
 .block_notification {
-    width: 1092px;
+    max-width: 1092px;
     margin-top: 129px;
     margin-left: 600px;
     border-radius: 20px;

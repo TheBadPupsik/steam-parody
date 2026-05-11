@@ -16,11 +16,11 @@ function GeneralSettings() {
             <div className='nok_email'>
               <div className='blochok'>
                 <b>Нікнейм</b>
-                <input className='input' type='text' placeholder='Enter your nickname' />
+                <input className='input_general' type='text' placeholder='Enter your nickname' />
               </div>
               <div className='blochok'>
                 <b>Ел. пошта</b>
-                <input className='input' type='email' placeholder='example@gmail.com' />
+                <input className='input_general' type='email' placeholder='example@gmail.com' />
               </div>
             </div>
 
