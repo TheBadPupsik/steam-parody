@@ -3,7 +3,6 @@ import './Doska.css';
 import { NavLink } from 'react-router-dom';
 
 export function Doska() {
-  const navigate = useNavigate();
 
   return (
     <div>

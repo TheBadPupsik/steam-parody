@@ -1,53 +1,58 @@
 .Notifications {}
 
 
-.switch {
+
+
+.ui-switch {
   position: relative;
   display: inline-block;
-  width: 36px;
-  height: 20px;
+  width: 44px;  
+  height: 22px; 
 }
 
-.switch input {
+.ui-switch__input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-.slider_inout {
+.ui-switch__slider {
   position: absolute;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #002F3D;
-  border: 2px solid #005f6b; 
-  transition: .4s;
+  background-color: #334455;
+  transition: .3s;
   border-radius: 34px;
 }
 
-.slider_inout:before {
+.ui-switch__slider:before {
   position: absolute;
   content: "";
-  height: 14px;
-  width: 14px;
-  background-color: #ff748c; 
-  transition: .4s;
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .3s;
   border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-input:checked + .slider_inout {
-  background-color: #02606d; 
+.ui-switch__input:checked + .ui-switch__slider {
+  background-color: #1c68db; 
 }
 
-input:checked + .slider_inout:before {
-  transform: translateX(15px);
+.ui-switch__input:checked + .ui-switch__slider:before {
+  transform: translateX(22px);
 }
 
-.slider_inout:hover {
-  border-color: #008b9c;
+.ui-switch:hover .ui-switch__slider {
+  filter: brightness(1.1);
 }
+
 
 
 .zagolovok_notification {

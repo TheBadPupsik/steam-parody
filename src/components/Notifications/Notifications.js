@@ -8,49 +8,49 @@ export function Notifications() {
         
         <div className='txt_button'>
           <p className='p_notification'>Великий розпродаж</p>
-          <label className="switch">
-            <input type="checkbox"/>
-            <span className="slider"></span>
+          <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
           </label>
         </div>
 
         <div className='txt_button'>
           <p className='p_notification'>Знижка на ігри з мого Бажаного</p>
-          <label className="switch">
-            <input type="checkbox"/>
-            <span className="slider"></span>
+          <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
           </label>
         </div>
 
         <div className='txt_button'>
           <p className='p_notification'>Новий коментар під моїм профілем</p>
-          <label className="switch">
-            <input type="checkbox"/>
-            <span className="slider"></span>
+          <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
           </label>
         </div>
 
         <div className='txt_button'>
           <p className='p_notification'>Новий запит на дружбу</p>
-          <label className="switch">
-            <input type="checkbox"/>
-            <span className="slider"></span>
-          </label>
+              <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
+              </label>
         </div>
 
         <div className='txt_button'>
           <p className='p_notification'>Мій запит на дружбу прийнято</p>
-          <label className="switch">
-            <input type="checkbox"/>
-            <span className="slider"></span>
-          </label>
+              <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
+              </label>
         </div>
 
         <div className='txt_button'>
           <p className='p_notification'>Мій запит на дружбу відхилено</p>
-          <label className="switch">
-            <input type="checkbox"/>
-            <span className="slider"></span>
+          <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
           </label>
         </div>
 
@@ -61,16 +61,16 @@ export function Notifications() {
           <div className='txt_button2'>
             <div className='button_text_notifications'>
               <h3 className='h3_notofications'>Сповіщення</h3>
-              <label className="switch">
-                <input type="checkbox"/>
-                <span className="slider"></span>
+              <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
               </label>
             </div>
             <div className='button_text_notifications'>
               <h3 className='h3_notofications'>Звук</h3>
-              <label className="switch">
-                <input type="checkbox"/>
-                <span className="slider"></span>
+              <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
               </label>
             </div>
           </div> 

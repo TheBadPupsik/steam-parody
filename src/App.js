@@ -58,6 +58,7 @@ function App() {
           <Route path='/deleteAccount' element={<Delete_accaount></Delete_accaount>}/>
           <Route path='/wallet' element={<Wallet></Wallet>}/>
           <Route path='/notifications' element={<Notifications></Notifications>}/>
+          <Route path='/settings' element={<Doska></Doska>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
