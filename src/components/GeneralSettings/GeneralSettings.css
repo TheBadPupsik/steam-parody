@@ -10,10 +10,11 @@
 
 
 .block_accaount {
-    margin-left: 600px;
-    margin-top: 129px;
+    position: absolute;
+    top: 129px;
+    left: 800px;
     width: 1092px;
-    height: 780px;
+    height: 725px;
     border-radius: 20px;
     background: #002F3D;
 }
@@ -38,6 +39,7 @@
 
 
 .blochok {
+    width: 380px;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -55,8 +57,9 @@ b {
 
 
 
-.input {
-    width: 410px;
+.input_general {
+    width: 346px;
+    height: 20px;
     /* height: 44px; */
     /* border-radius: 22px; */
     border: 1px solid #046075;
@@ -66,8 +69,7 @@ b {
 
 
 .about {
-    width: 840px;
-    height: 84px;
+    width: 810px;
     border-radius: 20px;
     border: 1px solid #046075;
     background: #00141F66;

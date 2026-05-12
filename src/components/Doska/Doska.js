@@ -15,7 +15,10 @@ export function Doska() {
               <img src='/pictures/Icons.png' alt='' />
               <p className='p_doska'>Темна Тема</p>
             </div>
-            <img src='/pictures/Toggle.png'></img>        
+          <label className="ui-switch">
+                <input type="checkbox" className="ui-switch__input" />
+                <span className="ui-switch__slider"></span>
+          </label>          
           </div>
 
           <NavLink to='/general' className='settings'>

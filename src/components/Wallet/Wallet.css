@@ -24,8 +24,11 @@
 
 
 .block_wallet_general{
-    margin-left: 848px;
-    margin-top: 129px;
+    position: absolute;
+    top: 129px;
+    left: 848px;
+    /* margin-left: 848px;
+    margin-top: 129px; */
 }
 
 
@@ -45,6 +48,7 @@
     width: 665px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -54,6 +58,59 @@
     height: 40px;
     border-radius: 20px;
     background: #24E5C2;
+}
+
+
+.block_history_transaction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 693px;
+    left: 700px;
+    gap: 20px;
+    width: 1092px;
+    height: 537px;
+    background: #004252;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.block_wallet_transaction {
+    width: 1092px;
+    height: 491px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.p_wallet_transaction {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+
+.wallet_b {
+    color: white;
+}
+
+
+.transaction_wallet {
+    display: flex;
+    justify-content: space-between;
+    width: 1052px;
+    height: 52px;
+    border-radius: 20px;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    background: #002F3D;
 }
 
 
