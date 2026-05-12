@@ -10,8 +10,8 @@ export function Delete_accaount()
         </h2>
         <div className='block_warning_delete_accaount'>
         <p className='p_delte_accaount'>
-          Натисніть {' '}  
-          <span className='p_red_delete_accaount'>видалити мій акаунт</span>,
+          Натисніть 
+          видалити мій акаунт,
           щоб розпочати процес остаточного видалення вашого акаунта Brist, 
           включно з усією особистою інформацією та купленим контентом.
           Після видалення вашого акаунта Brist баланс вашого гаманця також буде безповоротно видалено.
