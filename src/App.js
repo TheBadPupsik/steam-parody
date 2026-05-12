@@ -53,7 +53,7 @@ function App() {
           <Route path="/news" element={<><Navigation /><News /></>} />
           <Route path="/dlc" element={<><Navigation /><DLC /></>} />
           <Route path="/dlc_pages" element={<><Navigation /><Dlc_Pages /></>}/>
-          <Route path="/password" element={<Password></Password>} />
+          <Route path="/password" element={<><Password /><Doska /></>}/>
           <Route path="/general" element={<GeneralSettings></GeneralSettings>}/>
           <Route path='/deleteAccount' element={<Delete_accaount></Delete_accaount>}/>
           <Route path='/wallet' element={<Wallet></Wallet>}/>

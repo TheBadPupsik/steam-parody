@@ -3,21 +3,20 @@
 
 .main_picrure_all_dcls
 {
-    display: flex;  
+    display: flex;
     position: relative;
-    width: 99.6vw;
+    width: 100%;
     height: 448px;
     margin-top: 50px;
     z-index: 100;
     object-fit: cover;
-    background: linear-gradient(rgba(136, 163, 177, 0));
 }
 #gradient
 {
     position: relative;
     margin-top: -448px;
     z-index: 102;
-    width: 99.6vw;
+    width: 100%;
     height: 448px;
     background: linear-gradient(to bottom, rgba(0, 20, 31, 0) 70%, rgba(0, 20, 31, 1) 110%);
 }
@@ -67,10 +66,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1464px;
+    width: 1470px;
     height: 40px;
     justify-content: space-between;
     margin-top: 70px;
+    margin-left: 20px;
 }
 .etc_cards1
 {
@@ -144,15 +144,140 @@
     width: 18px;
     height: 18px;
 }
-
-
-
-
-
-
-
+.cards_dlc_pages
+{
+    display: flex;
+    flex-direction: column;
+    width: 1470px;
+    height: 896px;
+    gap: 23px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.just_card_pages
+{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 436px;
+    border-radius: 20px;
+    background-color: #002F3D;
+    overflow: hidden;
+}
+.describe_dlc_title
+{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 222px;
+    gap: 24px;
+    padding: 20px;
+}
+.describe_dlc_title1
+{
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: 110px;
+    gap: 14px;
+}
+.title_dlc_pa
+{
+    display: flex;
+    flex-direction: row;
+    width: 680px;
+    height: 24px;
+    justify-content: space-between;
+}
+#title_dlc_p
+{
+    margin-top: 0px;
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+}
+.title_dlc_pa div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 56px;
+    height: 24px;
+    gap: 8px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+}
+.title_dlc_pa div img
+{
+    width: 24px;
+    height: 24px;
+}
+#text_cards_dlc
+{
+    margin-top: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -1%;
+    color: #F1FDFF;
+}
+.describe_dlc_title2
+{
+    position: relative;
+    left: 56%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 281px;
+    height: 48px;
+    gap: 16px;
+}
+#text_dlc_button
+{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+}
+.describe_dlc_title2 button
+{
+    display: flex;
+    width: 132px;
+    height: 48px;
+    gap: 12px;
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-right: 26px;
+    padding-bottom: 12px;
+    border: none;
+    padding-left: 26px;
+    background-color: #24E5C2;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #00141F;
+}
 
 .app_dlc_pages
 {
-    margin-left: calc(50% - 960px);
+    width: 100%;
+    min-height: 100vh;
 }
