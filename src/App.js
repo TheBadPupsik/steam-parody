@@ -36,7 +36,7 @@ function App() {
           <Route index element={<Mainpage />} />
           <Route path="library" element={<LibraryPage />} />
           <Route path="catalog" element={<Catalog />} />
-          <Route path="settings" element={<><Settings/> <Doska/></>} />
+          <Route path="settings" element={<><Settings/> <Doska/> </>} />
           <Route path="wishlist" element={<WishlistPage />} />
           <Route path="commmunity" element={<Community />} />
           <Route path="cart" element={<CartPageRender>  </CartPageRender>} />
