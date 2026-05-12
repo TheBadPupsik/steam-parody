@@ -4,7 +4,7 @@ export function Wallet()
 {
   return(
     <div>
-      <div className='block_wallet_general'>
+     <div className='block_wallet_general'>
       <div className='block_wallet'>
         <img src='/pictures/iconoir_wallet.png'></img>
         <div className='wallet_blochik_cost'>

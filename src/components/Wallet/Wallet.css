@@ -24,8 +24,11 @@
 
 
 .block_wallet_general{
-    margin-left: 848px;
-    margin-top: 129px;
+    position: absolute;
+    top: 129px;
+    left: 848px;
+    /* margin-left: 848px;
+    margin-top: 129px; */
 }
 
 
@@ -45,6 +48,7 @@
     width: 665px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -54,6 +58,11 @@
     height: 40px;
     border-radius: 20px;
     background: #24E5C2;
+}
+
+
+.block_history_transaction {
+    
 }
 
 
