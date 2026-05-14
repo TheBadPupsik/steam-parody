@@ -3,6 +3,7 @@ import { LibraryCardsBlock } from '../LibraryCards/LibraryCards';
 import { LibSearch } from '../LibrarySearch/LibrarySearch';
 import { SideBar } from '../SideBar/SideBar';
 import './LibraryPage.css';
+import { NavLink } from 'react-router-dom';
 import React, { useState } from 'react';
 
 const pictures = [{ image: './pictures/1.png' }, { image: './pictures/2.png' }, { image: './pictures/3.png' }, { image: './pictures/4.png' },
@@ -32,29 +33,29 @@ function LibraryPage() {
             <img src='./images/create.svg' onClick={toggleModal} />
           </div>
           <div className={viewMode === 'grid' ? 'games-block' : 'games-list'}>
-                {
-                  pictures.map((picture) => (
-                    viewMode === 'grid' ? (
-                    <img src={picture.image} className='games-block-img' alt="game" />
-                  ) : (
-                    <div className='game-list-card'>
-                      <img src="./pictures/game.png" className='games-list-img' alt="game" />
-                      <div className='part1'>
-                        <h1>Название игры</h1>
-                        <button>Скачати</button>
-                      </div>
-                      <div className='part2'>
-                        <h3>Розмір на диску</h3>
-                        <h2>10 ГБ</h2>
-                      </div>
-                      <div className='part3'>
-                        <img src='./pictures/star1.png'></img>
-                        <img src='./pictures/more.png'></img>
-                      </div>
+            {
+              pictures.map((picture) => (
+                viewMode === 'grid' ? (
+                  <NavLink to="/library-game"><img src={picture.image} className='games-block-img' alt="game" /></NavLink>
+                ) : (
+                  <div className='game-list-card'>
+                    <img src="./pictures/game.png" className='games-list-img' alt="game" />
+                    <div className='part1'>
+                      <h1>Название игры</h1>
+                      <button>Скачати</button>
                     </div>
-                  )
-                  ))
-                }
+                    <div className='part2'>
+                      <h3>Розмір на диску</h3>
+                      <h2>10 ГБ</h2>
+                    </div>
+                    <div className='part3'>
+                      <img src='./pictures/star1.png'></img>
+                      <img src='./pictures/more.png'></img>
+                    </div>
+                  </div>
+                )
+              ))
+            }
           </div>
         </div>
 

@@ -25,6 +25,7 @@ import GeneralSettings from './components/GeneralSettings/GeneralSettings'
 import Notifications from './components/Notifications/Notifications'
 import Password from './components/password/password'
 import Wallet from './components/Wallet/Wallet';
+import { LibraryGame } from './components/LibraryGame/LibraryGame';
 
 
 
@@ -42,6 +43,7 @@ function App() {
           <Route path="cart" element={<CartPageRender>  </CartPageRender>} />
           <Route path="profile" element={<ProfilePage />} />
           <Route path='chat' element={<ChatPage />} />
+          <Route path='/library-game' element={<LibraryGame />} />
 
           <Route path="/about_game" element={<><Navigation /><About_Game /></>} />
           <Route path="/characteristics" element={<><Navigation /><Characteristics /></>} />

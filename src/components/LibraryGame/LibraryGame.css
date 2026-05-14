@@ -1,1 +1,154 @@
-.LibraryGame {}
+.game-info {
+    width: 100%;
+    height: 94%;
+    background-size: cover;
+}
+
+.game-info-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 460px;
+    max-width: 1456px;
+    padding: 40px 50px;
+}
+
+.game-name {
+    width: 249px;
+    height: 40px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.game-name h1 {
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.game-download button {
+    width: 111px;
+    height: 40px;
+    gap: 8px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    background-color: #24E5C2;
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #00141F;
+    border: none;
+    cursor: pointer;
+}
+
+.game-download {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 294px;
+}
+
+.block-download h3 {
+    font-family: Artifakt Element;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+}
+
+.block-download h2 {
+    font-family: Artifakt Element;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+}
+
+.game-info-right {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.small-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 746px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 14px;
+}
+
+.small-nav h3 {
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Bold;
+    color: #CCF8FFA6;
+    opacity: 70%;
+}
+
+.top-heading {
+    font-family: Manrope;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: #F1FDFF;
+    margin-left: 6%;
+    margin-top: 80px;
+}
+
+.write-block {
+    width: 1092px;
+    height: 144px;
+    border-radius: 20px;
+    background-color: #37C3FF1F;
+    margin-left: 6%;
+    text-align: center;
+    align-content: center;
+}
+
+.write-block-but {
+    width: 200px;
+    height: 40px;
+    top: 52px;
+    gap: 8px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    background-color: #24E5C2;
+    font-family: Artifakt Element;
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #00141F;
+    border: none;
+    cursor: pointer;
+}
+
+.game-info-two .block-info {
+    width: 70%;
+}
