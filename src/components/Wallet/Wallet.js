@@ -20,20 +20,29 @@ export function Wallet()
       </div>
       <div className='block_history_transaction'>
         <h2>Історія транзакцій</h2>
-        <div className='block_wallet_general_transaction'>
         <div className='block_wallet_transaction'>
+          <div>
           <div className='p_wallet_transaction'>
           <p>Сума</p>
           <p>Найменування</p>
           </div>
+          <div>
           <p>Дата</p>
+          </div>
+          </div>
+          <div className='transaction_cash'>
+            <div className='cost_name'>
+              <p className='cost'>-1000₴</p>
+              <p className='name_transaction'>Якась гра, яка дуже всім сподобається</p>
+            </div>
+            <div>
+              <p className='date'>02.02.2023</p>
+            </div>
+          </div>
         </div>
-        <div className='transaction_wallet'>
-          <div className=''></div>
-        </div>
+        
         </div>
       </div>
-    </div>
   )
 }
 export default Wallet;

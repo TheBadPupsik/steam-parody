@@ -17,7 +17,7 @@ export function DLC()
       <p className='title'>Cyberpunk 2077: Ілюзія свободи</p>
       <img src='/pictures/dlc_main.png' alt="main" className='main_picture_about' />
 
-      <div className='slider'>
+      <div className='slider2'>
         {images.map((img, index) => (
           <img key={index} src={img} className='slide_img' />
         ))}

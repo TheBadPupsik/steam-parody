@@ -65,9 +65,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    position: absolute;
-    top: 693px;
-    left: 700px;
+    margin-top: 50px;
+    margin-left: 600px;
     gap: 20px;
     width: 1092px;
     height: 537px;
@@ -78,13 +77,15 @@
 
 
 
+
+
+
 .block_wallet_transaction {
     width: 1092px;
     height: 491px;
     gap: 20px;
     display: flex;
     justify-content: space-between;
-
 }
 
 
@@ -114,3 +115,8 @@
 }
 
 
+.block_wallet_general_transaction {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
