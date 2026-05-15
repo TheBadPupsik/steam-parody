@@ -55,11 +55,9 @@ export function Password()
         <div className='input_zagolovok'>
         <p>Новий пароль</p>
         <div className='input_zagolovok2'>
-        <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть новий пароль' value={password}
-        onChange={(e) => setPassword(e.target.value)}></input>
+        <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть новий пароль'></input>
               {error && <p className='error'>{error}</p>}
-        <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть новий пароль' value={password}
-        onChange={(e) => setPassword(e.target.value)}></input>
+        <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть новий пароль' ></input>
               {error && <p className='error'>{error}</p>}
 
         </div>

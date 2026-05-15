@@ -18,29 +18,73 @@ export function Wallet()
         <button className='pay_wallet'>Поповнити</button>
       </div>
       </div>
-      <div className='block_history_transaction'>
-        <h2>Історія транзакцій</h2>
-        <div className='block_wallet_transaction'>
-          <div>
-          <div className='p_wallet_transaction'>
-          <p>Сума</p>
-          <p>Найменування</p>
+        <center><h2 className='h2_wallet_transaction'>Історія транзакцій</h2></center>
+      <div className='block_history_transaction'> 
+        <div className='block_transaction'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>Сума</p>
+            <p className='p_wallet_transaction_opis'>Найменування</p>
           </div>
-          <div>
-          <p>Дата</p>
-          </div>
-          </div>
-          <div className='transaction_cash'>
-            <div className='cost_name'>
-              <p className='cost'>-1000₴</p>
-              <p className='name_transaction'>Якась гра, яка дуже всім сподобається</p>
-            </div>
-            <div>
-              <p className='date'>02.02.2023</p>
-            </div>
-          </div>
+          <p className='p_wallet_transaction_opis'>Дата</p>
         </div>
-        
+        <div className='transactions_wallet_sum_and_date'>
+        <div className='block_transaction2'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>-1000₴</p>
+            <p className='p_wallet_transaction_opis'>Якась гра, яка дуже всім сподобається</p>
+          </div>
+          <p className='p_wallet_transaction_opis'>02.02.2023</p>
+        </div>
+        <div className='block_transaction2'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>+1000.50₴</p>
+            <p className='p_wallet_transaction_opis'>Поповнення балансу</p>
+          </div>
+          <p className='p_wallet_transaction_opis'>02.02.2023</p>
+        </div>
+        <div className='block_transaction2'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>+100.50₴</p>
+            <p className='p_wallet_transaction_opis'>Поповнення балансу</p>
+          </div>
+          <p className='p_wallet_transaction_opis'>02.02.2023</p>
+        </div>
+        <div className='block_transaction2'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>+100.50₴</p>
+            <p className='p_wallet_transaction_opis'>Поповнення балансу</p>
+          </div>
+          <p className='p_wallet_transaction_opis'>02.02.2023</p>
+        </div>
+        <div className='block_transaction2'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>+100.50₴</p>
+            <p className='p_wallet_transaction_opis'>Поповнення балансу</p>
+          </div>
+          <p className='p_wallet_transaction_opis'>02.02.2023</p>
+        </div>
+        <div className='block_transaction2'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>+100.50₴</p>
+            <p className='p_wallet_transaction_opis'>Поповнення балансу</p>
+          </div>
+          <p className='p_wallet_transaction_opis'>02.02.2023</p>
+        </div>
+        <div className='block_transaction2'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>+100.50₴</p>
+            <p className='p_wallet_transaction_opis'>Поповнення балансу</p>
+          </div>
+          <p className='p_wallet_transaction_opis'>02.02.2023</p>
+        </div>
+        <div className='block_transaction2'>
+          <div className='sum_name_transaction'>
+            <p className='p_wallet_transaction_opis'>+100.50₴</p>
+            <p className='p_wallet_transaction_opis'>Поповнення балансу</p>
+          </div>
+          <p className='p_wallet_transaction_opis'>02.02.2023</p>
+        </div>
+        </div>
         </div>
       </div>
   )
