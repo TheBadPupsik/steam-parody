@@ -44,14 +44,14 @@
 }
 
 
-.ProfileBarBTN.active{
+.ProfileBarBTN.active {
     background-color: #37c3FF40;
 }
 
 .ProfileLVL {
     width: 348px;
     display: flex;
-    gap:15px;
+    gap: 15px;
 }
 
 .ProfileLVL img {
@@ -71,12 +71,12 @@
 }
 
 .FriendsList {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.Friend{
+.Friend {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +84,7 @@
     height: 44px;
 }
 
-.Friend span{
+.Friend span {
     display: flex;
     gap: 12px;
     flex-direction: row;
@@ -93,11 +93,11 @@
     gap: 12px;
 }
 
-.Friend h2{
+.Friend h2 {
     font-size: 16px;
 }
 
-.Friend img{
+.Friend img {
     width: 44px;
     height: 44px;
 }

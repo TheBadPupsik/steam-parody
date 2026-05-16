@@ -15,7 +15,7 @@ import { ScreenShotes } from './components/ScreenShotes/ScreenShotes'
 import { Videos } from './components/Videos/Videos'
 import { Guides } from './components/Guides/Guides'
 import { News } from './components/News/News'
-import {Dlc_Pages} from './components/Dlc_Pages/Dlc_Pages'
+import { Dlc_Pages } from './components/Dlc_Pages/Dlc_Pages'
 import { DLC } from './components/DLC/DLC'
 import ChatPage from './components/ChatPage/ChatPage';
 import ProfilePage from './components/ProfilePage/ProfilePage';
@@ -26,6 +26,7 @@ import Notifications from './components/Notifications/Notifications'
 import Password from './components/password/password'
 import Wallet from './components/Wallet/Wallet';
 import { LibraryGame } from './components/LibraryGame/LibraryGame';
+import ProfileGeneralPage from './components/ProfileGeneralPage/ProfileGeneralPage';
 
 
 
@@ -37,11 +38,13 @@ function App() {
           <Route index element={<Mainpage />} />
           <Route path="library" element={<LibraryPage />} />
           <Route path="catalog" element={<Catalog />} />
-          <Route path="settings" element={<><Settings/> <Doska/> <GeneralSettings/> </>} />
+          <Route path="settings" element={<><Settings /> <Doska /> <GeneralSettings /> </>} />
           <Route path="wishlist" element={<WishlistPage />} />
           <Route path="commmunity" element={<Community />} />
           <Route path="cart" element={<CartPageRender>  </CartPageRender>} />
-          <Route path="profile" element={<ProfilePage />} />
+          <Route path="profile" element={<ProfilePage />}>
+            <Route index element={<ProfileGeneralPage/>} />
+          </Route>
           <Route path='chat' element={<ChatPage />} />
           <Route path='/library-game' element={<LibraryGame />} />
 
@@ -54,18 +57,19 @@ function App() {
           <Route path="/guides" element={<><Navigation /><Guides /></>} />
           <Route path="/news" element={<><Navigation /><News /></>} />
           <Route path="/dlc" element={<><Navigation /><DLC /></>} />
-          <Route path="/dlc_pages" element={<><Navigation /><Dlc_Pages /></>}/>
+          <Route path="/dlc_pages" element={<><Navigation /><Dlc_Pages /></>} />
 
-          <Route path="/password" element={<><Doska/><Password/></>}/>
-          <Route path="/general" element={<><Doska/> <GeneralSettings/> </>}/>
-          <Route path='/deleteAccount' element={<><Doska/> <Delete_accaount/> </>}/>
-          <Route path='/wallet' element={<><Doska/> <Wallet/> </>}/>
+          <Route path="/password" element={<><Doska /><Password /></>} />
+          <Route path="/general" element={<><Doska /> <GeneralSettings /> </>} />
+          <Route path='/deleteAccount' element={<><Doska /> <Delete_accaount /> </>} />
+          <Route path='/wallet' element={<><Doska /> <Wallet /> </>} />
           <Route path='/settings' element={<Doska></Doska>}></Route>
-          <Route path="/password" element={<><Doska/><Password/></>} />
-          <Route path="/general" element={<><Doska/><GeneralSettings/></>}/>
-          <Route path='/deleteAccount' element={<><Doska/><Delete_accaount/></>}/>
-          <Route path='/wallet' element={<><Doska/><Wallet/></>}/>
-          <Route path='/notifications' element={<><Doska/><Notifications/></>}/>
+          <Route path="/password" element={<><Doska /><Password /></>} />
+          <Route path="/general" element={<><Doska /><GeneralSettings /></>} />
+          <Route path='/deleteAccount' element={<><Doska /><Delete_accaount /></>} />
+          <Route path='/wallet' element={<><Doska /><Wallet /></>} />
+          <Route path='/notifications' element={<><Doska /><Notifications /></>} />
+
         </Route>
       </Routes>
     </BrowserRouter>

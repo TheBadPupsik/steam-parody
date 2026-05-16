@@ -47,7 +47,7 @@
     align-items: center;
     position: absolute;
     bottom: -60px;
-    left: 900px;
+    left: 840px;
     width: 190px;
     height: 25px;
     background-color: #046075;
@@ -56,7 +56,7 @@
     gap: 12px;
 }
 
-.ProfileBTN img{
+.ProfileBTN img {
     width: 24px;
 }
 
@@ -66,8 +66,22 @@
     left: 0px;
 }
 
-.ProfileData{
+.ProfileData {
     width: 844px;
     height: 57px;
 }
 
+.ProfileContent {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.ProfileLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 80px;
+}
