@@ -48,7 +48,7 @@
     position: absolute;
     bottom: -60px;
     left: 900px;
-    width: 200px;
+    width: 190px;
     height: 25px;
     background-color: #046075;
     border-radius: 20px;
@@ -56,8 +56,18 @@
     gap: 12px;
 }
 
+.ProfileBTN img{
+    width: 24px;
+}
+
 .Describe {
     position: absolute;
     bottom: -130px;
     left: 0px;
 }
+
+.ProfileData{
+    width: 844px;
+    height: 57px;
+}
+

@@ -1,24 +1,103 @@
 .ProfileBar {
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 
 .CategoryProfile {
     width: 348px;
-    height: 516px;
+    height: 590px;
+    border-radius: 20px;
     padding: 20px 12px 12px 12px;
     gap: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #004252;  
+    background-color: #004252;
 }
 
-.ProfileBarBTN{
+.ProfileBarBTN {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: white;
     width: 324px;
     height: 44px;
     border-radius: 12px;
     padding: 8px 12px 8px 12px;
+    font-size: 20px;
+}
+
+.ProfileBarBTN span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #CCF8FFA6;
+    width: 38px;
+    height: 22px;
+    border-radius: 20px;
+    padding: 4px 12px 4px 12px;
+    gap: 8px;
+    background-color: #37C3FF40;
+}
+
+
+.ProfileBarBTN.active{
+    background-color: #37c3FF40;
+}
+
+.ProfileLVL {
+    width: 348px;
+    display: flex;
+    gap:15px;
+}
+
+.ProfileLVL img {
+    width: 48px;
+}
+
+.ProfileFriendsList {
+    background-color: #004252;
+    border-radius: 20px;
+    width: 348px;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 12px 24px 12px;
+    gap: 16px;
+}
+
+.FriendsList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Friend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 44px;
+}
+
+.Friend span{
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    width: 152px;
+    height: 44px;
+    gap: 12px;
+}
+
+.Friend h2{
+    font-size: 16px;
+}
+
+.Friend img{
+    width: 44px;
+    height: 44px;
 }
