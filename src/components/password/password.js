@@ -1,9 +1,22 @@
 import './password.css';
+import { useState } from 'react';
+
 export function Password()
 {
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
   const handleSubmit = (e) => {
-    e.preventDefault(); 
-  };
+  e.preventDefault();
+
+  if (password.length < 7) {
+    setError('Мінімум 7 символів');
+  }
+  else {
+    setError('');
+    alert('Успішно');
+  }
+};
   
   return(
     <div>
@@ -36,16 +49,20 @@ export function Password()
         </div>
         <div className='input_zagolovok'>
         <p>Старий Пароль</p>
-        <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть поточний пароль'></input>
+        <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть поточний пароль'  value={password}
+        onChange={(e) => setPassword(e.target.value)}></input>
         </div>
         <div className='input_zagolovok'>
         <p>Новий пароль</p>
         <div className='input_zagolovok2'>
         <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть новий пароль'></input>
-        <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть новий пароль'></input>
+              {error && <p className='error'>{error}</p>}
+        <input pattern='[^\s]{7,}' required className='input2' type='text' placeholder='Введіть новий пароль' ></input>
+              {error && <p className='error'>{error}</p>}
+
         </div>
         </div>
-        <button>Збрегти</button>        
+        <button onClick={handleSubmit}>Збрегти</button>        
       </div>
       </form>
     </div>

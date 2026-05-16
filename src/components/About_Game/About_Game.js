@@ -20,7 +20,7 @@ export function About_Game()
       <p className='title'>Cyberpunk 2077</p>
       <img src='/pictures/main_picture_about.png' alt="main" className='main_picture_about' />
 
-      <div className='slider'>
+      <div className='slider2'>
         {images.map((img, index) => (
           <img key={index} src={img} className='slide_img' />
         ))}
